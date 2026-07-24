@@ -1,0 +1,352 @@
+﻿KtypNr,Vehicle Type,Manufacturer,Model,Version,Year From,Year To,Body Type,Drive Type,Displacement (l),Displacement (cc),Fuel Type,kW,HP,Cylinders,Valves,Engine Type,Engine Codes,Carpark,# Products,Competitors,Products
+45,Passenger Cars,RENAULT,SCÉNIC IV (J9_),1.5 dCi 110 Hybrid Assist (J9AE),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Mild Hybrid,"K9K 500, K9K 502",30,1,A,A: LuK DMF
+85,Passenger Cars,RENAULT,"MEGANE III Hatchback (BZ0/1_, B3_)",1.5 dCi,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,30,1,A,A: LuK RepSet DMF
+125,Passenger Cars,RENAULT,SCÉNIC III (JZ0/1_),"1.5 dCi (JZ02, JZ0R)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 846,30,1,A,A: LuK RepSet DMF
+165,Light Commercial Vehicles,RENAULT,KANGOO Express (FW0/1_),"1.5 dCi 110 (FW0C, FW0H)",X,Y,Box Body/MPV | Express | Rapid,Front-Wheel Drive,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 804, K9K 816",30,1,A,A: LuK RepSet DMF
+205,Passenger Cars,RENAULT,MODUS / GRAND MODUS (F/JP0_),"1.5 dCi (JP0G, JP0H)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 764,30,1,A,A: LuK RepSet DMF
+245,Passenger Cars,RENAULT,"MEGANE II (BM0/1_, CM0/1_)","1.5 dCi (BM1E, CM1E)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 732,30,1,A,A: LuK RepSet DMF
+285,Passenger Cars,RENAULT,"CLIO III (BR0/1, CR0/1) | CLIO CAMPUS | LUTECIA","1.5 dCi (BR1C, CR1C)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 772,30,1,A,A: LuK RepSet DMF
+325,Passenger Cars,RENAULT,"MEGANE II (BM0/1_, CM0/1_)","1.5 dCi (BM16, CM16)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 734,30,1,A,A: LuK RepSet DMF
+365,Passenger Cars,RENAULT,LAGUNA III Grandtour (KT0/1),"1.5 dCi (KT0A, KT0R, KT02)",X,Y,Estate | Grandtour | Sport Tourer | Sportour,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 780, K9K 782, K9K 846",30,1,A,A: LuK RepSet DMF
+405,Passenger Cars,NISSAN,TIIDA Hatchback (C11) | LATIO,1.5 dCi,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K, K9K 278",30,1,A,A: LuK RepSet DMF
+445,Passenger Cars,RENAULT,KANGOO BE BOP (KW0/1_),1.5 dCi (KW0F),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 806,30,1,A,A: LuK RepSet DMF
+485,Passenger Cars,NISSAN,"NOTE (E11, NE11)",1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 288,30,1,A,A: LuK RepSet DMF
+525,Passenger Cars,RENAULT,FLUENCE (L3_),"1.5 dCi (L30D, L30L, L306, L33F, L33L, L33M, L33V, L33W)",X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 656, K9K 657, K9K 836, K9K 837",30,1,A,A: LuK RepSet DMF
+565,Passenger Cars,NISSAN,JUKE (F15),1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 410, K9K 636, K9K 646, K9K 896",30,1,A,A: LuK RepSet DMF
+605,Passenger Cars,DACIA,LODGY (JS_),"1.5 dCi (JSMC, JSAF)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,79,107,4,2,Diesel,"K9K 846, K9K 856",30,1,A,A: LuK RepSet DMF
+645,Passenger Cars,RENAULT,LATITUDE (L70_),"1.5 dCi (L70R, L731)",X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 782, K9K 849",30,1,A,A: LuK RepSet DMF
+685,Passenger Cars,RENAULT,"MEGANE III Hatchback (BZ0/1_, B3_)","1.5 dCi (BZ1G, BZ1W, BZ0R)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 846,30,1,A,A: LuK RepSet DMF
+725,Passenger Cars,NISSAN,PULSAR Hatchback (C13) | TIIDA | SYLPHY,1.5 dCi,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K,30,1,A,A: LuK RepSet DMF
+765,Passenger Cars,RENAULT,"KADJAR (HA_, HL_)",1.5 dCi 110 (HLA3),X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 646, K9K 647, K9K 648, K9K 649",30,1,A,A: LuK RepSet DMF
+805,Passenger Cars,RENAULT,TALISMAN (LP_),1.5 dCi 110 (LPA3),X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 646, K9K 647",30,1,A,A: LuK RepSet DMF
+845,Passenger Cars,RENAULT,TALISMAN Grandtour (KP_),1.5 dCi 110,X,Y,Estate | Grandtour | Sport Tourer,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 646, K9K 647, K9K 648, K9K 649",30,1,A,A: LuK RepSet DMF
+885,Passenger Cars,RENAULT,CLIO IV (BH_) | CLIO MIO | LUTECIA,1.5 dCi 110,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K 646,30,1,A,A: LuK RepSet DMF
+925,Passenger Cars,RENAULT,MEGANE IV Saloon (LVA/M/N),1.5 dCi 90 (LVA1),X,Y,Saloon | Grand Coupe,Front-Wheel Drive,1.5,"1,461",DIESEL,66,90,4,2,Diesel,K9K 656,30,1,A,A: LuK RepSet DMF
+965,Passenger Cars,DACIA,DUSTER (HM_),1.5 dCi 110 (HMAB),X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 656, K9K 667",30,1,A,A: LuK RepSet DMF
+1005,Light Commercial Vehicles,RENAULT,MEGANE III Hatchback Van (BZ_),"1.5 dCi (BZ0D, BZ1G, BZ1F, BZ1M, BZ1W, BZ0R, BZ10)",X,Y,Hatchback Van | Hatchback Van,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 836, K9K 846",30,1,A,A: LuK RepSet DMF
+1045,Light Commercial Vehicles,RENAULT,MEGANE III Combi Van (KZ0/1),1.5 dCi,X,Y,Estate Van | Combi Van,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,30,1,A,A: LuK RepSet DMF
+1085,Light Commercial Vehicles,RENAULT,SCÉNIC III VAN (JZ0/1_),1.5 dCi (JZ02),X,Y,Box Body/MPV | VAN,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 846,30,1,A,A: LuK RepSet DMF
+1125,Passenger Cars,NISSAN,QASHQAI +2 (JJ10E) | DUALIS,1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 282, K9K 292",30,1,A,A: LuK RepSet DMF
+1165,Light Commercial Vehicles,DACIA,DOKKER Box Body/MPV,"1.5 dCi 75 / Blue dCi 75 (FEJW, FEAH)",X,Y,Box Body/MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,55,75,4,2,Diesel,"K9K 612, K9K 626, K9K 872",30,1,A,A: LuK RepSet DMF
+1205,Passenger Cars,DACIA,LODGY (JS_),"1.5 Blue dCi 95 (JSJL, JSN7)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,"K9K 872, K9K 876 (10.21-.)",30,1,A,A: LuK RepSet DMF
+1245,Passenger Cars,MERCEDES-BENZ,CITAN MPV (W415),111 CDI (415.703),X,Y,MPV | Kombi | Tila-Auto | Tourer | Traveliner,Front-Wheel Drive,1.5,"1,461",DIESEL,85,116,4,2,Diesel,OM 608.915 (K9K),30,1,A,A: LuK RepSet DMF
+1285,Light Commercial Vehicles,MERCEDES-BENZ,CITAN Box Body/MPV (W415),"109 CDI (415.603, 415.605)",X,Y,Box Body/MPV | Panel Van,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,OM 608.915 (K9K),30,1,A,A: LuK RepSet DMF
+1325,Passenger Cars,RENAULT,CLIO V (B7_),1.5 Blue dCi 115 (B7AD),X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,85,116,4,2,Diesel,"K9K 854, K9K 862, K9K 872",30,1,A,A: LuK RepSet DMF
+1365,Light Commercial Vehicles,NISSAN,NV250 Van (X61),dCi 115,X,Y,Van,Front-Wheel Drive,1.5,"1,461",DIESEL,85,116,4,2,Diesel,K9K 872,30,1,A,A: LuK RepSet DMF
+1405,Passenger Cars,RENAULT,CAPTUR II (HF_),Blue dCi 95 (HFAF),X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 872,30,1,A,A: LuK RepSet DMF
+1445,Light Commercial Vehicles,RENAULT,KANGOO Express (FW0/1_),1.5 dCi 115 (FW17),X,Y,Box Body/MPV | Express | Rapid,Front-Wheel Drive,1.5,"1,461",DIESEL,85,116,4,2,Diesel,K9K 872,30,1,A,A: LuK RepSet DMF
+1485,Light Commercial Vehicles,RENAULT,KANGOO III Box Body/MPV,1.5 Blue dCi 75 (FJAA),X,Y,Box Body/MPV | RAPID,Front-Wheel Drive,1.5,"1,461",DIESEL,55,75,4,2,Diesel,K9K 876,30,1,A,A: LuK RepSet DMF
+1525,Light Commercial Vehicles,MERCEDES-BENZ,CITAN Box Body/MPV (W420),1.5 108 CDI (420.613),X,Y,Box Body/MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,55,75,4,2,Diesel,OM 608.915 (K9K),30,1,A,A: LuK RepSet DMF
+1565,Passenger Cars,MERCEDES-BENZ,CITAN Tourer (W420),110 CDI (420.723),X,Y,MPV | Tourer,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,OM 608.915 (K9K),30,1,A,A: LuK RepSet DMF
+1605,Light Commercial Vehicles,RENAULT,EXPRESS Box Body/MPV,1.5 dCi 95 (F6AB),X,Y,Box Body/MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K672,30,1,A,A: LuK RepSet DMF
+1645,Passenger Cars,DACIA,"DUSTER (PYM_, PYN_)",1.5 dCi 115,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,85,115,4,2,Diesel,K9K 876,30,1,A,A: LuK RepSet DMF
+1685,Passenger Cars,NISSAN,CUBE (Z12),1.5 dCi,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K, K9K 270",30,1,B,B: DMF Module plus CSC
+1725,Passenger Cars,RENAULT,GRAND SCÉNIC III (JZ0/1_),"1.5 dCi (JZ02, JZ0R)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 846,30,1,B,B: DMF Module plus CSC
+1765,Light Commercial Vehicles,NISSAN,NV200 / EVALIA Bus,"1.5 dCi 110 (M20, M20M)",X,Y,Bus,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 646",30,1,B,B: DMF Module plus CSC
+1805,Passenger Cars,RENAULT,KANGOO / GRAND KANGOO II (KW0/1_),"1.5 dCi 110 (KW0C, KW0H)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,80,110,4,2,Diesel,"K9K 804, K9K 816",30,1,B,B: DMF Module plus CSC
+1845,Passenger Cars,RENAULT,MEGANE II Estate (KM0/1_),"1.5 dCi (KM16, KM1E)",X,Y,Estate | Grandtour | Sport Tourer,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 732,30,1,B,B: DMF Module plus CSC
+1885,Passenger Cars,NISSAN,"QASHQAI I (J10, NJ10) | DUALIS",1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 282, K9K 292",30,1,B,B: DMF Module plus CSC
+1925,Passenger Cars,RENAULT,MEGANE II Coupé-Cabriolet (EM0/1_),1.5 dCi (EM16),X,Y,Convertible | Coupé-Cabriolet,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 734,30,1,B,B: DMF Module plus CSC
+1965,Passenger Cars,RENAULT,CLIO III Grandtour (KR0/1_),"1.5 dCi (KR0H, KR1S)",X,Y,Estate | Grandtour | Sportour,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 764, K9K 774",30,1,B,B: DMF Module plus CSC
+2005,Light Commercial Vehicles,RENAULT,KANGOO Express (FW0/1_),1.5 dCi 105 (FW0F),X,Y,Box Body/MPV | Express | Rapid,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 806,30,1,B,B: DMF Module plus CSC
+2045,Passenger Cars,NISSAN,"QASHQAI I (J10, NJ10) | DUALIS",1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,"K9K 282, K9K 292",30,1,B,B: DMF Module plus CSC
+2085,Passenger Cars,RENAULT,GRAND SCÉNIC III (JZ0/1_),"1.5 dCi (JZ0B, JZ07)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,30,1,B,B: DMF Module plus CSC
+2125,Passenger Cars,DACIA,DUSTER (HS_),1.5 dCi (HSMC),X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,79,107,4,2,Diesel,"K9K 896, K9K 898",30,1,B,B: DMF Module plus CSC
+2165,Passenger Cars,DACIA,LODGY (JS_),"1.5 dCi (JSMC, JSAF)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,79,107,4,2,Diesel,"K9K 846, K9K 856",30,1,B,B: DMF Module plus CSC
+2205,Passenger Cars,RENAULT,LATITUDE (L70_),"1.5 dCi (L70R, L731)",X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 782, K9K 849",30,1,B,B: DMF Module plus CSC
+2245,Passenger Cars,MERCEDES-BENZ,CITAN MPV (W415),"111 CDI (415.703, 415.705)",X,Y,MPV | Kombi | Tila-Auto | Tourer | Traveliner,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,OM 607.951 (K9K),30,1,B,B: DMF Module plus CSC
+2285,Passenger Cars,DACIA,DUSTER (HS_),1.5 dCi 4x4,X,Y,SUV,All-wheel Drive | 4x4,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 658, K9K 858, K9K 898",30,1,B,B: DMF Module plus CSC
+2325,Light Commercial Vehicles,RENAULT,KANGOO Express (FW0/1_),"1.5 dCi 110 (FW06, FW12)",X,Y,Box Body/MPV | Express | Rapid,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 646, K9K 647, K9K 648",30,1,B,B: DMF Module plus CSC
+2365,Passenger Cars,RENAULT,MEGANE IV Hatchback (B9A/M/N_) | MEGANE III,1.5 dCi 90 (B9A1),X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,66,90,4,2,Diesel,K9K 656,30,1,B,B: DMF Module plus CSC
+2405,Passenger Cars,RENAULT,MEGANE IV Grandtour (K9A/M/N_),1.5 dCi 90,X,Y,Estate | Estate | Grandtour | Sport Tourer | Sporter,Front-Wheel Drive,1.5,"1,461",DIESEL,66,90,4,2,Diesel,K9K 656,30,1,B,B: DMF Module plus CSC
+2445,Passenger Cars,RENAULT,CLIO IV (BH_) | CLIO MIO | LUTECIA,1.5 dCi 110,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K 646,30,1,B,B: DMF Module plus CSC
+2485,Passenger Cars,DACIA,DUSTER (HS_),"1.5 dCi (HSMD, HSM3)",X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 856, K9K 858, K9K 898",30,1,B,B: DMF Module plus CSC
+2525,Passenger Cars,DACIA,DUSTER (HM_),1.5 dCi 110 (HMAB),X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 656, K9K 667",30,1,B,B: DMF Module plus CSC
+2565,Light Commercial Vehicles,NISSAN,QASHQAI II VAN (J11_),1.5 dCi,X,Y,SUV Van | VAN,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K 646,30,1,B,B: DMF Module plus CSC
+2605,Passenger Cars,RENAULT,SCÉNIC III (JZ0/1_),1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 656, K9K 657, K9K 836, K9K 837",30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2645,Light Commercial Vehicles,RENAULT,"CLIO III Hatchback Van (SB_, SR_)",1.5 dCi,X,Y,Hatchback Van,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 764, K9K 772",30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2685,Light Commercial Vehicles,NISSAN,NV200 / EVALIA Bus,"1.5 dCi 110 (M20, M20M)",X,Y,Bus,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 646",30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2725,Passenger Cars,RENAULT,KANGOO / GRAND KANGOO II (KW0/1_),"1.5 dCi 110 (KW0C, KW0H)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,80,110,4,2,Diesel,"K9K 804, K9K 816",30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2765,Passenger Cars,RENAULT,MEGANE II Estate (KM0/1_),"1.5 dCi (KM16, KM1E)",X,Y,Estate | Grandtour | Sport Tourer,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 732,30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2805,Passenger Cars,NISSAN,"QASHQAI I (J10, NJ10) | DUALIS",1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 282, K9K 292",30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2845,Passenger Cars,RENAULT,MEGANE II Saloon (LM0/1_),1.5 dCi (LM16),X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 734,30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2885,Passenger Cars,RENAULT,LAGUNA III (BT0/1),"1.5 dCi (BT00, BT0A, BT0T, BT1J)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 780, K9K 782, K9K 846",30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2925,Passenger Cars,RENAULT,KANGOO / GRAND KANGOO II (KW0/1_),1.5 dCi 105 (KW0F),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 806,30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2965,Passenger Cars,RENAULT,GRAND SCÉNIC II (JM0/1_),1.5 dCi (JM1E),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 732,30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3005,Passenger Cars,NISSAN,"QASHQAI I (J10, NJ10) | DUALIS",1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,"K9K 282, K9K 292",30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3045,Passenger Cars,RENAULT,GRAND SCÉNIC III (JZ0/1_),"1.5 dCi (JZ0B, JZ07)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3085,Passenger Cars,DACIA,DUSTER (HS_),1.5 dCi (HSMC),X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,79,107,4,2,Diesel,"K9K 896, K9K 898",30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3125,Passenger Cars,RENAULT,MEGANE III Coupe (DZ0/1_),1.5 dCi (DZ0B),X,Y,Coupe,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3165,Passenger Cars,RENAULT,KANGOO / GRAND KANGOO II (KW0/1_),"1.5 dCi (KW0C, KW2C, KW4C)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 804,30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3205,Passenger Cars,MERCEDES-BENZ,CITAN MPV (W415),"111 CDI (415.703, 415.705)",X,Y,MPV | Kombi | Tila-Auto | Tourer | Traveliner,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,OM 607.951 (K9K),30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3245,Passenger Cars,RENAULT,GRAND SCÉNIC II (JM0/1_),1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 734,30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3285,Light Commercial Vehicles,RENAULT,KANGOO Express (FW0/1_),"1.5 dCi 110 (FW06, FW12)",X,Y,Box Body/MPV | Express | Rapid,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 646, K9K 647, K9K 648",30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3325,Passenger Cars,DACIA,LODGY (JS_),1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 666, K9K 846",30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3365,Light Commercial Vehicles,DACIA,DUSTER SUV Van (HS_),1.5 dCi,X,Y,SUV Van,Front-Wheel Drive,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 666, K9K 856",30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3405,Passenger Cars,RENAULT,CLIO IV Grandtour (KH_),1.5 dCi 110,X,Y,Estate | Grandtour | SPORT TOURER | Sport Tourer,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K 646,30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3445,Passenger Cars,RENAULT,MEGANE IV Saloon (LVA/M/N),1.5 dCi 110,X,Y,Saloon | Grand Coupe,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 656, K9K 657, K9K 674, K9K 675, K9K 676, K9K 677",30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3485,Passenger Cars,RENAULT,MEGANE CC (EZ0/1_),"1.5 dCi (EZ0B, EZ07)",X,Y,Convertible,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,30,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+25,Passenger Cars,RENAULT,SCÉNIC IV (J9_),1.5 dCi 110,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 646, K9K 647",25,1,A,A: LuK DMF
+65,Passenger Cars,RENAULT,GRAND SCÉNIC IV (R9_),1.5 dCi 95 Hybrid Assist (R9A3),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Mild Hybrid,K9K 646,25,1,A,A: LuK DMF
+105,Passenger Cars,RENAULT,SCÉNIC III (JZ0/1_),1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 656, K9K 657, K9K 836, K9K 837",25,1,A,A: LuK RepSet DMF
+145,Light Commercial Vehicles,RENAULT,"CLIO III Hatchback Van (SB_, SR_)",1.5 dCi,X,Y,Hatchback Van,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 764, K9K 772",25,1,A,A: LuK RepSet DMF
+185,Passenger Cars,RENAULT,KANGOO / GRAND KANGOO II (KW0/1_),"1.5 dCi 110 (KW0C, KW0H)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,80,110,4,2,Diesel,"K9K 804, K9K 816",25,1,A,A: LuK RepSet DMF
+225,Passenger Cars,RENAULT,MEGANE II Saloon (LM0/1_),1.5 dCi (LM1E),X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 732,25,1,A,A: LuK RepSet DMF
+265,Passenger Cars,RENAULT,MEGANE II Coupé-Cabriolet (EM0/1_),1.5 dCi (EM1E),X,Y,Convertible | Coupé-Cabriolet,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 732,25,1,A,A: LuK RepSet DMF
+305,Passenger Cars,RENAULT,MEGANE II Estate (KM0/1_),1.5 dCi (KM16),X,Y,Estate | Grandtour | Sport Tourer,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 734,25,1,A,A: LuK RepSet DMF
+345,Passenger Cars,RENAULT,SCÉNIC II (JM0/1_),1.5 dCi (JM16),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,"K9K 728, K9K 734",25,1,A,A: LuK RepSet DMF
+385,Passenger Cars,RENAULT,CLIO III Grandtour (KR0/1_),"1.5 dCi (KR0H, KR1S)",X,Y,Estate | Grandtour | Sportour,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 764, K9K 774",25,1,A,A: LuK RepSet DMF
+425,Light Commercial Vehicles,RENAULT,KANGOO Express (FW0/1_),1.5 dCi 105 (FW0F),X,Y,Box Body/MPV | Express | Rapid,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 806,25,1,A,A: LuK RepSet DMF
+465,Passenger Cars,RENAULT,MEGANE III Coupe (DZ0/1_),"1.5 dCi (DZ09, DZ0D, DZ1F, DZ1G, DZ14, DZ29)",X,Y,Coupe,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 656, K9K 836, K9K 837, K9K 846",25,1,A,A: LuK RepSet DMF
+505,Passenger Cars,RENAULT,SCÉNIC III (JZ0/1_),1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,25,1,A,A: LuK RepSet DMF
+545,Passenger Cars,RENAULT,FLUENCE (L3_),1.5 dCi (L30B),X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,25,1,A,A: LuK RepSet DMF
+585,Passenger Cars,RENAULT,MEGANE III Coupe (DZ0/1_),1.5 dCi (DZ0B),X,Y,Coupe,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,25,1,A,A: LuK RepSet DMF
+625,Passenger Cars,RENAULT,KANGOO / GRAND KANGOO II (KW0/1_),"1.5 dCi (KW0C, KW2C, KW4C)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 804,25,1,A,A: LuK RepSet DMF
+665,Light Commercial Vehicles,MERCEDES-BENZ,CITAN Mixto (Double Cabin) (W415),"111 CDI (415.603, 415.605)",X,Y,Box Body/MPV | Dualiner | Mixto (Double Cabin),Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,OM 607.951 (K9K),25,1,A,A: LuK RepSet DMF
+705,Passenger Cars,NISSAN,"QASHQAI II (J11, J11_) | KICKS",1.5 dCi,X,Y,SUV | Wagon,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 646",25,1,A,A: LuK RepSet DMF
+745,Passenger Cars,RENAULT,KANGOO / GRAND KANGOO II (KW0/1_),"1.5 dCi 110 (KW06, KW12)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 646, K9K 647, K9K 648",25,1,A,A: LuK RepSet DMF
+785,Passenger Cars,RENAULT,MEGANE III Coupe (DZ0/1_),1.5 dCi,X,Y,Coupe,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 846,25,1,A,A: LuK RepSet DMF
+825,Passenger Cars,RENAULT,MEGANE IV Hatchback (B9A/M/N_) | MEGANE III,1.5 dCi 110 (B9A3),X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 646, K9K 648, K9K 656, K9K 657",25,1,A,A: LuK RepSet DMF
+865,Passenger Cars,RENAULT,MEGANE IV Grandtour (K9A/M/N_),1.5 dCi 110,X,Y,Estate | Estate | Grandtour | Sport Tourer | Sporter,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 656, K9K 657",25,1,A,A: LuK RepSet DMF
+905,Passenger Cars,RENAULT,DUSTER (HS_),"1.5 dCi (HSAE, HSAD, HSAF, HSJ7, HSMC, HSMD)",X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 856, K9K 858, K9K 898",25,1,A,A: LuK RepSet DMF
+945,Light Commercial Vehicles,RENAULT,MEGANE II Estate Van (KM_),1.5 dCi (KM1E),X,Y,Estate Van,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 732,25,1,A,A: LuK RepSet DMF
+985,Light Commercial Vehicles,RENAULT,MEGANE III Combi Van (KZ0/1),1.5 dCi,X,Y,Estate Van | Combi Van,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 836, K9K 837",25,1,A,A: LuK RepSet DMF
+1025,Light Commercial Vehicles,RENAULT,MEGANE II Hatchback Van (KM0/2_),1.5 dCi,X,Y,Hatchback Van | Hatchback Van,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 732,25,1,A,A: LuK RepSet DMF
+1065,Light Commercial Vehicles,NISSAN,QASHQAI I VAN (J10) | DUALIS,1.5 dCi,X,Y,SUV Van | VAN,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K,25,1,A,A: LuK RepSet DMF
+1105,Light Commercial Vehicles,RENAULT,KANGOO Express (FW0/1_),"1.5 dCi (FW0C, FW1C)",X,Y,Box Body/MPV | Express | Rapid,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 804,25,1,A,A: LuK RepSet DMF
+1145,Light Commercial Vehicles,NISSAN,QASHQAI +2 VAN (JJ10E) | DUALIS,1.5 dCi,X,Y,SUV Van | VAN,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K,25,1,A,A: LuK RepSet DMF
+1185,Passenger Cars,DACIA,DUSTER (HM_),1.5 dCi 115 (HMAD),X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,85,116,4,2,Diesel,"K9K 872, K9K 876 (10.20-.)",25,1,A,A: LuK RepSet DMF
+1225,Passenger Cars,MERCEDES-BENZ,CITAN MPV (W415),108 CDI (415.703),X,Y,MPV | Kombi | Tila-Auto | Tourer | Traveliner,Front-Wheel Drive,1.5,"1,461",DIESEL,59,80,4,2,Diesel,OM 608.915 (K9K),25,1,A,A: LuK RepSet DMF
+1265,Passenger Cars,RENAULT,KANGOO / GRAND KANGOO II (KW0/1_),1.5 dCi 115 (KW17),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,85,115,4,2,Diesel,K9K 872,25,1,A,A: LuK RepSet DMF
+1305,Passenger Cars,RENAULT,KANGOO / GRAND KANGOO II (KW0/1_),1.5 dCi 95 (KW16),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 872,25,1,A,A: LuK RepSet DMF
+1345,Light Commercial Vehicles,NISSAN,NV250 Van (X61),dCi 80,X,Y,Van,Front-Wheel Drive,1.5,"1,461",DIESEL,59,80,4,2,Diesel,K9K 872,25,1,A,A: LuK RepSet DMF
+1385,Light Commercial Vehicles,NISSAN,NV250 Bus (X61),dCi 95,X,Y,Bus,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 872,25,1,A,A: LuK RepSet DMF
+1425,Light Commercial Vehicles,RENAULT,KANGOO Express (FW0/1_),1.5 dCi 80 (FW15),X,Y,Box Body/MPV | Express | Rapid,Front-Wheel Drive,1.5,"1,461",DIESEL,59,80,4,2,Diesel,K9K 872,25,1,A,A: LuK RepSet DMF
+1465,Light Commercial Vehicles,RENAULT,EXPRESS Box Body/MPV,1.5 Blue dCi 95 (F6AB),X,Y,Box Body/MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,"K9K 872, K9K 876",25,1,A,A: LuK RepSet DMF
+1505,Light Commercial Vehicles,RENAULT,KANGOO III Box Body/MPV,1.5 Blue dCi 115 (FJAC),X,Y,Box Body/MPV | RAPID,Front-Wheel Drive,1.5,"1,461",DIESEL,85,116,4,2,Diesel,"K9K 876, K9K 877",25,1,A,A: LuK RepSet DMF
+1545,Light Commercial Vehicles,MERCEDES-BENZ,CITAN Box Body/MPV (W420),"1.5 112 CDI (420.633, 420.635)",X,Y,Box Body/MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,85,116,4,2,Diesel,OM 608.915 (K9K),25,1,A,A: LuK RepSet DMF
+1585,Passenger Cars,RENAULT,KANGOO III MPV,Blue dCi 115 (KJAC),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,85,116,4,2,Diesel,"K9K 876, K9K 877",25,1,A,A: LuK RepSet DMF
+1625,Passenger Cars,DACIA,BIGSTER,1.5 dCi 115,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,85,115,4,2,Diesel,K9K 876,25,1,A,A: LuK RepSet DMF
+1665,Passenger Cars,RENAULT,"MEGANE III Hatchback (BZ0/1_, B3_)",1.5 dCi,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,25,1,B,B: DMF Module plus CSC
+1705,Passenger Cars,RENAULT,GRAND SCÉNIC III (JZ0/1_),"1.5 dCi (JZ09, JZ0D, JZ10, JZ14, JZ1G, JZ29, JZ2C)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 656, K9K 657, K9K 836, K9K 837",25,1,B,B: DMF Module plus CSC
+1745,Passenger Cars,RENAULT,KANGOO BE BOP (KW0/1_),1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,80,110,4,2,Diesel,K9K 804,25,1,B,B: DMF Module plus CSC
+1785,Light Commercial Vehicles,RENAULT,KANGOO Express (FW0/1_),"1.5 dCi 110 (FW0C, FW0H)",X,Y,Box Body/MPV | Express | Rapid,Front-Wheel Drive,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 804, K9K 816",25,1,B,B: DMF Module plus CSC
+1825,Passenger Cars,RENAULT,SCÉNIC II (JM0/1_),"1.5 dCi (JM1E, JM16)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 732, K9K 734",25,1,B,B: DMF Module plus CSC
+1865,Passenger Cars,RENAULT,"CLIO III (BR0/1, CR0/1) | CLIO CAMPUS | LUTECIA","1.5 dCi (BR0H, CR0H, CR1S, BR1S)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 764, K9K 774",25,1,B,B: DMF Module plus CSC
+1905,Passenger Cars,RENAULT,MEGANE II Saloon (LM0/1_),1.5 dCi (LM16),X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 734,25,1,B,B: DMF Module plus CSC
+1945,Passenger Cars,RENAULT,LAGUNA III Grandtour (KT0/1),"1.5 dCi (KT0A, KT0R, KT02)",X,Y,Estate | Grandtour | Sport Tourer | Sportour,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 780, K9K 782, K9K 846",25,1,B,B: DMF Module plus CSC
+1985,Passenger Cars,NISSAN,TIIDA Hatchback (C11) | LATIO,1.5 dCi,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K, K9K 278",25,1,B,B: DMF Module plus CSC
+2025,Passenger Cars,RENAULT,"MEGANE III Hatchback (BZ0/1_, B3_)","1.5 dCi (BZ09, BZ0D, BZ1W, BZ29, BZ14)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 656, K9K 657, K9K 836, K9K 837, K9K 846",25,1,B,B: DMF Module plus CSC
+2065,Passenger Cars,RENAULT,MEGANE III Grandtour (KZ0/1) | GRAN TOUR,"1.5 dCi (KZ09, KZ0D, KZ1G, KZ29, KZ14, KZ1W, KZ10, KZ1F,...",X,Y,Estate | Grandtour,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 656, K9K 657, K9K 836, K9K 837, K9K 846",25,1,B,B: DMF Module plus CSC
+2105,Passenger Cars,NISSAN,CUBE (Z12),1.5 dCi,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K, K9K 270",25,1,B,B: DMF Module plus CSC
+2145,Passenger Cars,RENAULT,MEGANE III Coupe (DZ0/1_),1.5 dCi (DZ0B),X,Y,Coupe,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,25,1,B,B: DMF Module plus CSC
+2185,Passenger Cars,RENAULT,KANGOO / GRAND KANGOO II (KW0/1_),"1.5 dCi (KW0C, KW2C, KW4C)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 804,25,1,B,B: DMF Module plus CSC
+2225,Light Commercial Vehicles,MERCEDES-BENZ,CITAN Box Body/MPV (W415),"111 CDI (415.603, 415.605)",X,Y,Box Body/MPV | Panel Van,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,OM 607.951 (K9K),25,1,B,B: DMF Module plus CSC
+2265,Passenger Cars,RENAULT,MEGANE III Grandtour (KZ0/1) | GRAN TOUR,"1.5 dCi (KZ1G, KZ1W, KZ0R)",X,Y,Estate | Grandtour,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 846,25,1,B,B: DMF Module plus CSC
+2305,Passenger Cars,RENAULT,FLUENCE (L3_),1.5 dCi,X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 826,25,1,B,B: DMF Module plus CSC
+2345,Passenger Cars,RENAULT,MEGANE III Coupe (DZ0/1_),1.5 dCi,X,Y,Coupe,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 846,25,1,B,B: DMF Module plus CSC
+2385,Light Commercial Vehicles,DACIA,DUSTER SUV Van (HS_),1.5 dCi,X,Y,SUV Van,Front-Wheel Drive,1.5,"1,461",DIESEL,66,90,4,2,Diesel,K9K 892,25,1,B,B: DMF Module plus CSC
+2425,Passenger Cars,RENAULT,DUSTER (HS_),1.5 dCi 4x4 (HSMC),X,Y,SUV,All-wheel Drive | 4x4,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K 896,25,1,B,B: DMF Module plus CSC
+2465,Passenger Cars,RENAULT,DUSTER (HS_),"1.5 dCi (HSAE, HSAD, HSAF, HSJ7, HSMC, HSMD)",X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 856, K9K 858, K9K 898",25,1,B,B: DMF Module plus CSC
+2505,Passenger Cars,RENAULT,MEGANE IV Saloon (LVA/M/N),1.5 dCi 110,X,Y,Saloon | Grand Coupe,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 656, K9K 657, K9K 674, K9K 675, K9K 676, K9K 677",25,1,B,B: DMF Module plus CSC
+2545,Passenger Cars,RENAULT,DUSTER (HM_),1.5 dCi 110 (HMAB),X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 656, K9K 658, K9K 667, K9K 678, K9K 858",25,1,B,B: DMF Module plus CSC
+2585,Passenger Cars,RENAULT,"MEGANE III Hatchback (BZ0/1_, B3_)",1.5 dCi,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2625,Passenger Cars,RENAULT,SCÉNIC III (JZ0/1_),"1.5 dCi (JZ02, JZ0R)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 846,25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2665,Light Commercial Vehicles,NISSAN,NV200 / EVALIA Bus,"1.5 dCi 90 (M20, M20M)",X,Y,Bus,Front-Wheel Drive,1.5,"1,461",DIESEL,66,90,4,2,Diesel,K9K 892,25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2705,Light Commercial Vehicles,RENAULT,KANGOO Express (FW0/1_),"1.5 dCi 110 (FW0C, FW0H)",X,Y,Box Body/MPV | Express | Rapid,Front-Wheel Drive,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 804, K9K 816",25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2745,Passenger Cars,RENAULT,SCÉNIC II (JM0/1_),"1.5 dCi (JM1E, JM16)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 732, K9K 734",25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2785,Passenger Cars,RENAULT,"CLIO III (BR0/1, CR0/1) | CLIO CAMPUS | LUTECIA","1.5 dCi (BR0H, CR0H, CR1S, BR1S)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 764, K9K 774",25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2825,Passenger Cars,RENAULT,MODUS / GRAND MODUS (F/JP0_),1.5 dCi (JP02),X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 772,25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2865,Passenger Cars,RENAULT,MEGANE II Coupé-Cabriolet (EM0/1_),1.5 dCi (EM16),X,Y,Convertible | Coupé-Cabriolet,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 734,25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2905,Passenger Cars,RENAULT,CLIO III Grandtour (KR0/1_),"1.5 dCi (KR1C, KR1N)",X,Y,Estate | Grandtour | Sportour,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 772,25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2945,Passenger Cars,NISSAN,TIIDA Saloon (SC11) | TIIDA LATIO | LATIO,1.5 dCi,X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K, K9K 278",25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2985,Passenger Cars,RENAULT,"MEGANE III Hatchback (BZ0/1_, B3_)","1.5 dCi (BZ09, BZ0D, BZ1W, BZ29, BZ14)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 656, K9K 657, K9K 836, K9K 837, K9K 846",25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3025,Passenger Cars,RENAULT,MEGANE III Grandtour (KZ0/1) | GRAN TOUR,"1.5 dCi (KZ09, KZ0D, KZ1G, KZ29, KZ14, KZ1W, KZ10, KZ1F,...",X,Y,Estate | Grandtour,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 656, K9K 657, K9K 836, K9K 837, K9K 846",25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3065,Passenger Cars,NISSAN,CUBE (Z12),1.5 dCi,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K, K9K 270",25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3105,Passenger Cars,NISSAN,JUKE (F15),1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 410, K9K 636, K9K 646, K9K 896",25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3145,Passenger Cars,DACIA,LODGY (JS_),"1.5 dCi (JSMC, JSAF)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,79,107,4,2,Diesel,"K9K 846, K9K 856",25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3185,Light Commercial Vehicles,MERCEDES-BENZ,CITAN Box Body/MPV (W415),"111 CDI (415.603, 415.605)",X,Y,Box Body/MPV | Panel Van,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,OM 607.951 (K9K),25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3225,Passenger Cars,RENAULT,MEGANE III Grandtour (KZ0/1) | GRAN TOUR,"1.5 dCi (KZ1G, KZ1W, KZ0R)",X,Y,Estate | Grandtour,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 846,25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3265,Passenger Cars,RENAULT,FLUENCE (L3_),1.5 dCi,X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 826,25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3305,Passenger Cars,RENAULT,"CAPTUR I (J5_, H5_)",1.5 dCi 110,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 646, K9K 856",25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3345,Passenger Cars,RENAULT,MEGANE IV Hatchback (B9A/M/N_) | MEGANE III,1.5 dCi 90 (B9A1),X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,66,90,4,2,Diesel,K9K 656,25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3385,Passenger Cars,RENAULT,MEGANE IV Grandtour (K9A/M/N_),1.5 dCi 90,X,Y,Estate | Estate | Grandtour | Sport Tourer | Sporter,Front-Wheel Drive,1.5,"1,461",DIESEL,66,90,4,2,Diesel,K9K 656,25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3425,Passenger Cars,DACIA,LODGY (JS_),1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 666, K9K 846",25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3465,Passenger Cars,DACIA,DUSTER (HM_),1.5 dCi 90 (HMAA),X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,66,90,4,2,Diesel,K9K 656,25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3505,Light Commercial Vehicles,RENAULT,MEGANE II Hatchback Van (KM0/2_),1.5 dCi,X,Y,Hatchback Van | Hatchback Van,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 734,25,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+35,Passenger Cars,RENAULT,GRAND SCÉNIC IV (R9_),1.5 dCi 110 (R9A3),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 646, K9K 647, K9K 649",15,1,A,A: LuK DMF
+75,Passenger Cars,RENAULT,MEGANE III Grandtour (KZ0/1) | GRAN TOUR,"1.5 dCi (KZ1M, KZ1W, KZ0R)",X,Y,Estate | Grandtour,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 832, K9K 836, K9K 846",15,1,A,A: LuK RepSet DMF
+115,Passenger Cars,RENAULT,GRAND SCÉNIC III (JZ0/1_),"1.5 dCi (JZ09, JZ0D, JZ10, JZ14, JZ1G, JZ29, JZ2C)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 656, K9K 657, K9K 836, K9K 837",15,1,A,A: LuK RepSet DMF
+155,Passenger Cars,RENAULT,KANGOO BE BOP (KW0/1_),1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,80,110,4,2,Diesel,K9K 804,15,1,A,A: LuK RepSet DMF
+195,Passenger Cars,RENAULT,MODUS / GRAND MODUS (F/JP0_),"1.5 dCi (FP0F, JP0F)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,63,86,4,2,Diesel,"K9K 760, K9K 766, K9K 772",15,1,A,A: LuK RepSet DMF
+235,Passenger Cars,RENAULT,MEGANE II Estate (KM0/1_),"1.5 dCi (KM16, KM1E)",X,Y,Estate | Grandtour | Sport Tourer,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 732,15,1,A,A: LuK RepSet DMF
+275,Passenger Cars,NISSAN,"QASHQAI I (J10, NJ10) | DUALIS",1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 282, K9K 292",15,1,A,A: LuK RepSet DMF
+315,Passenger Cars,RENAULT,MEGANE II Saloon (LM0/1_),1.5 dCi (LM16),X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 734,15,1,A,A: LuK RepSet DMF
+355,Passenger Cars,RENAULT,LAGUNA III (BT0/1),"1.5 dCi (BT00, BT0A, BT0T, BT1J)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 780, K9K 782, K9K 846",15,1,A,A: LuK RepSet DMF
+395,Passenger Cars,RENAULT,KANGOO / GRAND KANGOO II (KW0/1_),1.5 dCi 105 (KW0F),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 806,15,1,A,A: LuK RepSet DMF
+435,Passenger Cars,RENAULT,GRAND SCÉNIC II (JM0/1_),1.5 dCi (JM1E),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 732,15,1,A,A: LuK RepSet DMF
+475,Passenger Cars,NISSAN,"QASHQAI I (J10, NJ10) | DUALIS",1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,"K9K 282, K9K 292",15,1,A,A: LuK RepSet DMF
+515,Passenger Cars,RENAULT,GRAND SCÉNIC III (JZ0/1_),"1.5 dCi (JZ0B, JZ07)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,15,1,A,A: LuK RepSet DMF
+555,Passenger Cars,DACIA,DUSTER (HS_),1.5 dCi (HSMC),X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,79,107,4,2,Diesel,"K9K 896, K9K 898",15,1,A,A: LuK RepSet DMF
+595,Passenger Cars,DACIA,DUSTER (HS_),1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 658, K9K 666, K9K 667, K9K 856, K9K 858",15,1,A,A: LuK RepSet DMF
+635,Passenger Cars,RENAULT,LAGUNA Coupe (DT0/1),1.5 dCi,X,Y,Coupe,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K 846,15,1,A,A: LuK RepSet DMF
+675,Passenger Cars,MERCEDES-BENZ,CITAN MPV (W415),"111 CDI (415.703, 415.705)",X,Y,MPV | Kombi | Tila-Auto | Tourer | Traveliner,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,OM 607.951 (K9K),15,1,A,A: LuK RepSet DMF
+715,Passenger Cars,RENAULT,GRAND SCÉNIC II (JM0/1_),1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 734,15,1,A,A: LuK RepSet DMF
+755,Light Commercial Vehicles,RENAULT,KANGOO Express (FW0/1_),"1.5 dCi 110 (FW06, FW12)",X,Y,Box Body/MPV | Express | Rapid,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 646, K9K 647, K9K 648",15,1,A,A: LuK RepSet DMF
+795,Passenger Cars,DACIA,LODGY (JS_),1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 666, K9K 846",15,1,A,A: LuK RepSet DMF
+835,Light Commercial Vehicles,DACIA,DUSTER SUV Van (HS_),1.5 dCi,X,Y,SUV Van,Front-Wheel Drive,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 666, K9K 856",15,1,A,A: LuK RepSet DMF
+875,Passenger Cars,RENAULT,CLIO IV Grandtour (KH_),1.5 dCi 110,X,Y,Estate | Grandtour | SPORT TOURER | Sport Tourer,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K 646,15,1,A,A: LuK RepSet DMF
+915,Passenger Cars,DACIA,DUSTER (HS_),"1.5 dCi (HSMD, HSM3)",X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 856, K9K 858, K9K 898",15,1,A,A: LuK RepSet DMF
+955,Passenger Cars,DACIA,DUSTER (HM_),1.5 dCi 90 (HMAA),X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,66,90,4,2,Diesel,K9K 656,15,1,A,A: LuK RepSet DMF
+995,Passenger Cars,RENAULT,MEGANE CC (EZ0/1_),"1.5 dCi (EZ0B, EZ07)",X,Y,Convertible,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,15,1,A,A: LuK RepSet DMF
+1035,Passenger Cars,RENAULT,DUSTER (HM_),1.5 dCi 110 (HMAB),X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 656, K9K 658, K9K 667, K9K 678, K9K 858",15,1,A,A: LuK RepSet DMF
+1075,Light Commercial Vehicles,NISSAN,QASHQAI II VAN (J11_),1.5 dCi,X,Y,SUV Van | VAN,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K 646,15,1,A,A: LuK RepSet DMF
+1115,Passenger Cars,NISSAN,QASHQAI +2 (JJ10E) | DUALIS,1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,"K9K 282, K9K 292",15,1,A,A: LuK RepSet DMF
+1155,Passenger Cars,DACIA,DOKKER MPV (KE_),"1.5 dCi / Blue dCi 75 (KEAJ, KEAH, KEJW)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,55,75,4,2,Diesel,"K9K 612, K9K 626, K9K 872",15,1,A,A: LuK RepSet DMF
+1195,Passenger Cars,DACIA,LODGY (JS_),"1.5 Blue dCi 115 (JSJT, JSNR)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,85,116,4,2,Diesel,"K9K 872, K9K 876",15,1,A,A: LuK RepSet DMF
+1235,Passenger Cars,MERCEDES-BENZ,CITAN MPV (W415),109 CDI (415.703),X,Y,MPV | Kombi | Tila-Auto | Tourer | Traveliner,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,OM 608.915 (K9K),15,1,A,A: LuK RepSet DMF
+1275,Light Commercial Vehicles,MERCEDES-BENZ,CITAN Box Body/MPV (W415),108 CDI (415.603),X,Y,Box Body/MPV | Panel Van,Front-Wheel Drive,1.5,"1,461",DIESEL,59,80,4,2,Diesel,OM 608.915 (K9K),15,1,A,A: LuK RepSet DMF
+1315,Passenger Cars,RENAULT,CLIO V (B7_),1.5 Blue dCi 85 (B7AG),X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,63,86,4,2,Diesel,"K9K 854, K9K 872",15,1,A,A: LuK RepSet DMF
+1355,Light Commercial Vehicles,NISSAN,NV250 Van (X61),dCi 95,X,Y,Van,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 872,15,1,A,A: LuK RepSet DMF
+1395,Light Commercial Vehicles,NISSAN,NV250 Bus (X61),dCi 115,X,Y,Bus,Front-Wheel Drive,1.5,"1,461",DIESEL,85,116,4,2,Diesel,K9K 872,15,1,A,A: LuK RepSet DMF
+1435,Light Commercial Vehicles,RENAULT,KANGOO Express (FW0/1_),1.5 dCi 95 (FW16),X,Y,Box Body/MPV | Express | Rapid,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 872,15,1,A,A: LuK RepSet DMF
+1475,Passenger Cars,RENAULT,KANGOO III MPV,Blue dCi 95 (KJAB),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,"K9K 876, K9K 877",15,1,A,A: LuK RepSet DMF
+1515,Passenger Cars,RENAULT,KANGOO III MPV,Blue dCi 75 (KJAA),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,55,75,4,2,Diesel,K9K 876,15,1,A,A: LuK RepSet DMF
+1555,Passenger Cars,MERCEDES-BENZ,CITAN Tourer (W420),108 CDI (420.713),X,Y,MPV | Tourer,Front-Wheel Drive,1.5,"1,461",DIESEL,55,75,4,2,Diesel,OM 608.915 (K9K),15,1,A,A: LuK RepSet DMF
+1595,Passenger Cars,MERCEDES-BENZ,CITAN Tourer (W420),112 CDI (420.733),X,Y,MPV | Tourer,Front-Wheel Drive,1.5,"1,461",DIESEL,85,116,4,2,Diesel,OM 608.915 (K9K),15,1,A,A: LuK RepSet DMF
+1635,Passenger Cars,DACIA,"DUSTER (PYM_, PYN_)",1.5 dCi 85,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,63,85,4,2,Diesel,K9K 876,15,1,A,A: LuK RepSet DMF
+1675,Passenger Cars,DACIA,DUSTER (HS_),"1.5 dCi 4x4 (HSMC, HSMD)",X,Y,SUV,All-wheel Drive | 4x4,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 858, K9K 898",15,1,B,B: DMF Module plus CSC
+1715,Passenger Cars,RENAULT,SCÉNIC III (JZ0/1_),"1.5 dCi (JZ02, JZ0R)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 846,15,1,B,B: DMF Module plus CSC
+1755,Light Commercial Vehicles,NISSAN,NV200 Van,"1.5 dCi 90 (M20, M20N, M20M)",X,Y,Van,Front-Wheel Drive,1.5,"1,461",DIESEL,66,90,4,2,Diesel,K9K 892,15,1,B,B: DMF Module plus CSC
+1795,Passenger Cars,NISSAN,"QASHQAI I (J10, NJ10) | DUALIS",1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K 430,15,1,B,B: DMF Module plus CSC
+1835,Passenger Cars,RENAULT,MEGANE II Saloon (LM0/1_),1.5 dCi (LM1E),X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 732,15,1,B,B: DMF Module plus CSC
+1875,Passenger Cars,RENAULT,MEGANE II Coupé-Cabriolet (EM0/1_),1.5 dCi (EM1E),X,Y,Convertible | Coupé-Cabriolet,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 732,15,1,B,B: DMF Module plus CSC
+1915,Passenger Cars,RENAULT,"MEGANE II (BM0/1_, CM0/1_)","1.5 dCi (BM16, CM16)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 734,15,1,B,B: DMF Module plus CSC
+1955,Passenger Cars,RENAULT,CLIO III Grandtour (KR0/1_),"1.5 dCi (KR1C, KR1N)",X,Y,Estate | Grandtour | Sportour,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 772,15,1,B,B: DMF Module plus CSC
+1995,Passenger Cars,NISSAN,TIIDA Saloon (SC11) | TIIDA LATIO | LATIO,1.5 dCi,X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K, K9K 278",15,1,B,B: DMF Module plus CSC
+2035,Passenger Cars,RENAULT,MEGANE III Coupe (DZ0/1_),"1.5 dCi (DZ09, DZ0D, DZ1F, DZ1G, DZ14, DZ29)",X,Y,Coupe,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 656, K9K 836, K9K 837, K9K 846",15,1,B,B: DMF Module plus CSC
+2075,Passenger Cars,RENAULT,SCÉNIC III (JZ0/1_),1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,15,1,B,B: DMF Module plus CSC
+2115,Passenger Cars,RENAULT,FLUENCE (L3_),1.5 dCi (L30B),X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,15,1,B,B: DMF Module plus CSC
+2155,Passenger Cars,DACIA,DUSTER (HS_),1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 658, K9K 666, K9K 667, K9K 856, K9K 858",15,1,B,B: DMF Module plus CSC
+2195,Passenger Cars,RENAULT,LAGUNA Coupe (DT0/1),1.5 dCi,X,Y,Coupe,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K 846,15,1,B,B: DMF Module plus CSC
+2235,Light Commercial Vehicles,MERCEDES-BENZ,CITAN Mixto (Double Cabin) (W415),"111 CDI (415.603, 415.605)",X,Y,Box Body/MPV | Dualiner | Mixto (Double Cabin),Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,OM 607.951 (K9K),15,1,B,B: DMF Module plus CSC
+2275,Passenger Cars,NISSAN,"QASHQAI II (J11, J11_) | KICKS",1.5 dCi,X,Y,SUV | Wagon,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 646",15,1,B,B: DMF Module plus CSC
+2315,Passenger Cars,RENAULT,KANGOO / GRAND KANGOO II (KW0/1_),"1.5 dCi 110 (KW06, KW12)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 646, K9K 647, K9K 648",15,1,B,B: DMF Module plus CSC
+2355,Passenger Cars,DACIA,LODGY (JS_),1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 666, K9K 846",15,1,B,B: DMF Module plus CSC
+2395,Light Commercial Vehicles,DACIA,DUSTER SUV Van (HS_),1.5 dCi,X,Y,SUV Van,Front-Wheel Drive,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 666, K9K 856",15,1,B,B: DMF Module plus CSC
+2435,Passenger Cars,RENAULT,CLIO IV Grandtour (KH_),1.5 dCi 110,X,Y,Estate | Grandtour | SPORT TOURER | Sport Tourer,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K 646,15,1,B,B: DMF Module plus CSC
+2475,Passenger Cars,RENAULT,DUSTER (HS_),1.5 dCi 4x4 (HSMD),X,Y,SUV,All-wheel Drive | 4x4,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 856, K9K 858",15,1,B,B: DMF Module plus CSC
+2515,Passenger Cars,DACIA,DUSTER (HM_),1.5 dCi 90 (HMAA),X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,66,90,4,2,Diesel,K9K 656,15,1,B,B: DMF Module plus CSC
+2555,Light Commercial Vehicles,NISSAN,JUKE Van (F15),dCi,X,Y,SUV Van | Van,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K 636,15,1,B,B: DMF Module plus CSC
+2595,Passenger Cars,NISSAN,CUBE (Z12),1.5 dCi,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K, K9K 270",15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2635,Passenger Cars,RENAULT,GRAND SCÉNIC III (JZ0/1_),"1.5 dCi (JZ02, JZ0R)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 846,15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2675,Light Commercial Vehicles,NISSAN,NV200 Van,"1.5 dCi 90 (M20, M20N, M20M)",X,Y,Van,Front-Wheel Drive,1.5,"1,461",DIESEL,66,90,4,2,Diesel,K9K 892,15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2715,Passenger Cars,NISSAN,"QASHQAI I (J10, NJ10) | DUALIS",1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K 430,15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2755,Passenger Cars,RENAULT,MEGANE II Saloon (LM0/1_),1.5 dCi (LM1E),X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 732,15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2795,Passenger Cars,RENAULT,MEGANE II Coupé-Cabriolet (EM0/1_),1.5 dCi (EM1E),X,Y,Convertible | Coupé-Cabriolet,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 732,15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2835,Passenger Cars,RENAULT,MEGANE II Estate (KM0/1_),1.5 dCi (KM16),X,Y,Estate | Grandtour | Sport Tourer,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 734,15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2875,Passenger Cars,RENAULT,SCÉNIC II (JM0/1_),1.5 dCi (JM16),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,"K9K 728, K9K 734",15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2915,Passenger Cars,RENAULT,CLIO III Grandtour (KR0/1_),"1.5 dCi (KR0H, KR1S)",X,Y,Estate | Grandtour | Sportour,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 764, K9K 774",15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2955,Light Commercial Vehicles,RENAULT,KANGOO Express (FW0/1_),1.5 dCi 105 (FW0F),X,Y,Box Body/MPV | Express | Rapid,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 806,15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2995,Passenger Cars,RENAULT,MEGANE III Coupe (DZ0/1_),"1.5 dCi (DZ09, DZ0D, DZ1F, DZ1G, DZ14, DZ29)",X,Y,Coupe,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 656, K9K 836, K9K 837, K9K 846",15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3035,Passenger Cars,RENAULT,SCÉNIC III (JZ0/1_),1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3075,Passenger Cars,RENAULT,FLUENCE (L3_),1.5 dCi (L30B),X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3115,Passenger Cars,RENAULT,CLIO III Grandtour (KR0/1_),1.5 dCi,X,Y,Estate | Grandtour | Sportour,Front-Wheel Drive,1.5,"1,461",DIESEL,65,88,4,2,Diesel,"K9K 770, K9K 772",15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3155,Passenger Cars,NISSAN,TIIDA Saloon (SC11) | TIIDA LATIO | LATIO,1.5 dCi,X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,"K9K, K9K 278",15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3195,Light Commercial Vehicles,MERCEDES-BENZ,CITAN Mixto (Double Cabin) (W415),"111 CDI (415.603, 415.605)",X,Y,Box Body/MPV | Dualiner | Mixto (Double Cabin),Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,OM 607.951 (K9K),15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3235,Passenger Cars,NISSAN,"QASHQAI II (J11, J11_) | KICKS",1.5 dCi,X,Y,SUV | Wagon,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 646",15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3275,Passenger Cars,RENAULT,KANGOO / GRAND KANGOO II (KW0/1_),"1.5 dCi 110 (KW06, KW12)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 646, K9K 647, K9K 648",15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3315,Passenger Cars,RENAULT,MEGANE III Coupe (DZ0/1_),1.5 dCi,X,Y,Coupe,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 846,15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3355,Passenger Cars,RENAULT,MEGANE IV Hatchback (B9A/M/N_) | MEGANE III,1.5 dCi 110 (B9A3),X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 646, K9K 648, K9K 656, K9K 657",15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3395,Passenger Cars,RENAULT,MEGANE IV Grandtour (K9A/M/N_),1.5 dCi 110,X,Y,Estate | Estate | Grandtour | Sport Tourer | Sporter,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 656, K9K 657",15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3435,Passenger Cars,DACIA,DUSTER (HS_),"1.5 dCi (HSMD, HSM3)",X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 856, K9K 858, K9K 898",15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3475,Light Commercial Vehicles,RENAULT,MEGANE III Combi Van (KZ0/1),1.5 dCi,X,Y,Estate Van | Combi Van,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 836, K9K 837",15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3515,Light Commercial Vehicles,RENAULT,MEGANE II Hatchback Van (KM0/2_),1.5 dCi,X,Y,Hatchback Van | Hatchback Van,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 732,15,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+15,Passenger Cars,RENAULT,SCÉNIC IV (J9_),1.5 dCi 95,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,"K9K 646, K9K 648, K9K 846",1,1,A,A: LuK DMF
+55,Passenger Cars,RENAULT,GRAND SCÉNIC IV (R9_),"1.5 dCi 110 Hybrid Assist (R9AE, R9A3)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Mild Hybrid,"K9K 500, K9K 502, K9K 648",1,1,A,A: LuK DMF
+95,Passenger Cars,NISSAN,CUBE (Z12),1.5 dCi,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K, K9K 270",1,1,A,A: LuK RepSet DMF
+135,Passenger Cars,RENAULT,GRAND SCÉNIC III (JZ0/1_),"1.5 dCi (JZ02, JZ0R)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 846,1,1,A,A: LuK RepSet DMF
+175,Passenger Cars,NISSAN,"QASHQAI I (J10, NJ10) | DUALIS",1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K 430,1,1,A,A: LuK RepSet DMF
+215,Passenger Cars,RENAULT,SCÉNIC II (JM0/1_),"1.5 dCi (JM1E, JM16)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 732, K9K 734",1,1,A,A: LuK RepSet DMF
+255,Passenger Cars,RENAULT,"CLIO III (BR0/1, CR0/1) | CLIO CAMPUS | LUTECIA","1.5 dCi (BR0H, CR0H, CR1S, BR1S)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 764, K9K 774",1,1,A,A: LuK RepSet DMF
+295,Passenger Cars,RENAULT,MODUS / GRAND MODUS (F/JP0_),1.5 dCi (JP02),X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 772,1,1,A,A: LuK RepSet DMF
+335,Passenger Cars,RENAULT,MEGANE II Coupé-Cabriolet (EM0/1_),1.5 dCi (EM16),X,Y,Convertible | Coupé-Cabriolet,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 734,1,1,A,A: LuK RepSet DMF
+375,Passenger Cars,RENAULT,CLIO III Grandtour (KR0/1_),"1.5 dCi (KR1C, KR1N)",X,Y,Estate | Grandtour | Sportour,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 772,1,1,A,A: LuK RepSet DMF
+415,Passenger Cars,NISSAN,TIIDA Saloon (SC11) | TIIDA LATIO | LATIO,1.5 dCi,X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K, K9K 278",1,1,A,A: LuK RepSet DMF
+455,Passenger Cars,RENAULT,"MEGANE III Hatchback (BZ0/1_, B3_)","1.5 dCi (BZ09, BZ0D, BZ1W, BZ29, BZ14)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 656, K9K 657, K9K 836, K9K 837, K9K 846",1,1,A,A: LuK RepSet DMF
+495,Passenger Cars,RENAULT,MEGANE III Grandtour (KZ0/1) | GRAN TOUR,"1.5 dCi (KZ09, KZ0D, KZ1G, KZ29, KZ14, KZ1W, KZ10, KZ1F,...",X,Y,Estate | Grandtour,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 656, K9K 657, K9K 836, K9K 837, K9K 846",1,1,A,A: LuK RepSet DMF
+535,Passenger Cars,NISSAN,CUBE (Z12),1.5 dCi,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K, K9K 270",1,1,A,A: LuK RepSet DMF
+575,Passenger Cars,RENAULT,CLIO III Grandtour (KR0/1_),1.5 dCi,X,Y,Estate | Grandtour | Sportour,Front-Wheel Drive,1.5,"1,461",DIESEL,65,88,4,2,Diesel,"K9K 770, K9K 772",1,1,A,A: LuK RepSet DMF
+615,Passenger Cars,NISSAN,TIIDA Saloon (SC11) | TIIDA LATIO | LATIO,1.5 dCi,X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,"K9K, K9K 278",1,1,A,A: LuK RepSet DMF
+655,Light Commercial Vehicles,MERCEDES-BENZ,CITAN Box Body/MPV (W415),"111 CDI (415.603, 415.605)",X,Y,Box Body/MPV | Panel Van,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,OM 607.951 (K9K),1,1,A,A: LuK RepSet DMF
+695,Passenger Cars,RENAULT,MEGANE III Grandtour (KZ0/1) | GRAN TOUR,"1.5 dCi (KZ1G, KZ1W, KZ0R)",X,Y,Estate | Grandtour,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 846,1,1,A,A: LuK RepSet DMF
+735,Passenger Cars,RENAULT,FLUENCE (L3_),1.5 dCi,X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 826,1,1,A,A: LuK RepSet DMF
+775,Passenger Cars,RENAULT,"CAPTUR I (J5_, H5_)",1.5 dCi 110,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 646, K9K 856",1,1,A,A: LuK RepSet DMF
+815,Passenger Cars,RENAULT,MEGANE IV Hatchback (B9A/M/N_) | MEGANE III,1.5 dCi 90 (B9A1),X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,66,90,4,2,Diesel,K9K 656,1,1,A,A: LuK RepSet DMF
+855,Passenger Cars,RENAULT,MEGANE IV Grandtour (K9A/M/N_),1.5 dCi 90,X,Y,Estate | Estate | Grandtour | Sport Tourer | Sporter,Front-Wheel Drive,1.5,"1,461",DIESEL,66,90,4,2,Diesel,K9K 656,1,1,A,A: LuK RepSet DMF
+895,Passenger Cars,DACIA,LODGY (JS_),1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 666, K9K 846",1,1,A,A: LuK RepSet DMF
+935,Passenger Cars,RENAULT,MEGANE IV Saloon (LVA/M/N),1.5 dCi 110,X,Y,Saloon | Grand Coupe,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 656, K9K 657, K9K 674, K9K 675, K9K 676, K9K 677",1,1,A,A: LuK RepSet DMF
+975,Passenger Cars,NISSAN,TIIDA Hatchback (C11) | LATIO,1.5 dCi,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K,1,1,A,A: LuK RepSet DMF
+1015,Light Commercial Vehicles,RENAULT,MEGANE II Hatchback Van (KM0/2_),1.5 dCi,X,Y,Hatchback Van | Hatchback Van,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 734,1,1,A,A: LuK RepSet DMF
+1055,Light Commercial Vehicles,NISSAN,JUKE Van (F15),dCi,X,Y,SUV Van | Van,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K 636,1,1,A,A: LuK RepSet DMF
+1095,Light Commercial Vehicles,RENAULT,SCÉNIC III VAN (JZ0/1_),"1.5 dCi (JZ0D, JZ1M, JZ09, JZ14, JZ1G, JZ1W, JZ10)",X,Y,Box Body/MPV | VAN,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 836, K9K 837",1,1,A,A: LuK RepSet DMF
+1135,Passenger Cars,NISSAN,QASHQAI +2 (JJ10E) | DUALIS,1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K 430,1,1,A,A: LuK RepSet DMF
+1175,Passenger Cars,DACIA,DUSTER (HM_),1.5 dCi 95 (HMAF),X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,"K9K 872, K9K 876",1,1,A,A: LuK RepSet DMF
+1215,Passenger Cars,DACIA,DOKKER MPV (KE_),1.5 Blue dCi 95 (KEJL),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 872,1,1,A,A: LuK RepSet DMF
+1255,Passenger Cars,RENAULT,KANGOO / GRAND KANGOO II (KW0/1_),1.5 dCi 80 (KW15),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,59,80,4,2,Diesel,K9K 872,1,1,A,A: LuK RepSet DMF
+1295,Light Commercial Vehicles,MERCEDES-BENZ,CITAN Box Body/MPV (W415),"111 CDI (415.603, 415.605)",X,Y,Box Body/MPV | Panel Van,Front-Wheel Drive,1.5,"1,461",DIESEL,85,116,4,2,Diesel,OM 608.915 (K9K),1,1,A,A: LuK RepSet DMF
+1335,Light Commercial Vehicles,DACIA,DOKKER Box Body/MPV,1.5 Blue dCi 95 (FEJL),X,Y,Box Body/MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 872,1,1,A,A: LuK RepSet DMF
+1375,Light Commercial Vehicles,NISSAN,NV250 Bus (X61),dCi 80,X,Y,Bus,Front-Wheel Drive,1.5,"1,461",DIESEL,59,80,4,2,Diesel,K9K 872,1,1,A,A: LuK RepSet DMF
+1415,Passenger Cars,RENAULT,CAPTUR II (HF_),Blue dCi 115 (HFAD),X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,85,116,4,2,Diesel,"K9K 872, K9K 873",1,1,A,A: LuK RepSet DMF
+1455,Light Commercial Vehicles,RENAULT,EXPRESS Box Body/MPV,1.5 Blue dCi 75 (F6AA),X,Y,Box Body/MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,55,75,4,2,Diesel,"K9K 872, K9K 876",1,1,A,A: LuK RepSet DMF
+1495,Light Commercial Vehicles,RENAULT,KANGOO III Box Body/MPV,1.5 Blue dCi 95 (FJAB),X,Y,Box Body/MPV | RAPID,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,"K9K 876, K9K 877",1,1,A,A: LuK RepSet DMF
+1535,Light Commercial Vehicles,MERCEDES-BENZ,CITAN Box Body/MPV (W420),"1.5 110 CDI (420.623, 420.625)",X,Y,Box Body/MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,OM 608.915 (K9K),1,1,A,A: LuK RepSet DMF
+1575,Passenger Cars,RENAULT,CLIO V (B7_),1.5 Blue dCi 100 (B7AD),X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,74,101,4,2,Diesel,"K9K 872, K9K 876",1,1,A,A: LuK RepSet DMF
+1615,Passenger Cars,RENAULT,GRAND KANGOO III MPV,Blue dCi 95 (KJAB),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 876,1,1,A,A: LuK RepSet DMF
+1655,Passenger Cars,RENAULT,MEGANE III Grandtour (KZ0/1) | GRAN TOUR,"1.5 dCi (KZ1M, KZ1W, KZ0R)",X,Y,Estate | Grandtour,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 832, K9K 836, K9K 846",1,1,B,B: DMF Module plus CSC
+1695,Passenger Cars,RENAULT,SCÉNIC III (JZ0/1_),1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 656, K9K 657, K9K 836, K9K 837",1,1,B,B: DMF Module plus CSC
+1735,Light Commercial Vehicles,RENAULT,"CLIO III Hatchback Van (SB_, SR_)",1.5 dCi,X,Y,Hatchback Van,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 764, K9K 772",1,1,B,B: DMF Module plus CSC
+1775,Light Commercial Vehicles,NISSAN,NV200 Van,"1.5 dCi 110 (M20, M20N, M20M)",X,Y,Van,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 646",1,1,B,B: DMF Module plus CSC
+1815,Passenger Cars,RENAULT,MODUS / GRAND MODUS (F/JP0_),"1.5 dCi (JP0G, JP0H)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 764,1,1,B,B: DMF Module plus CSC
+1855,Passenger Cars,RENAULT,"MEGANE II (BM0/1_, CM0/1_)","1.5 dCi (BM1E, CM1E)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 732,1,1,B,B: DMF Module plus CSC
+1895,Passenger Cars,RENAULT,"CLIO III (BR0/1, CR0/1) | CLIO CAMPUS | LUTECIA","1.5 dCi (BR1C, CR1C)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 772,1,1,B,B: DMF Module plus CSC
+1935,Passenger Cars,RENAULT,LAGUNA III (BT0/1),"1.5 dCi (BT00, BT0A, BT0T, BT1J)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 780, K9K 782, K9K 846",1,1,B,B: DMF Module plus CSC
+1975,Passenger Cars,RENAULT,KANGOO / GRAND KANGOO II (KW0/1_),1.5 dCi 105 (KW0F),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 806,1,1,B,B: DMF Module plus CSC
+2015,Passenger Cars,RENAULT,KANGOO BE BOP (KW0/1_),1.5 dCi (KW0F),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 806,1,1,B,B: DMF Module plus CSC
+2055,Passenger Cars,NISSAN,"NOTE (E11, NE11)",1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 288,1,1,B,B: DMF Module plus CSC
+2095,Passenger Cars,RENAULT,FLUENCE (L3_),"1.5 dCi (L30D, L30L, L306, L33F, L33L, L33M, L33V, L33W)",X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 656, K9K 657, K9K 836, K9K 837",1,1,B,B: DMF Module plus CSC
+2135,Passenger Cars,NISSAN,JUKE (F15),1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 410, K9K 636, K9K 646, K9K 896",1,1,B,B: DMF Module plus CSC
+2175,Passenger Cars,NISSAN,TIIDA Saloon (SC11) | TIIDA LATIO | LATIO,1.5 dCi,X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,"K9K, K9K 278",1,1,B,B: DMF Module plus CSC
+2215,Passenger Cars,RENAULT,DUSTER (HS_),1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K 896,1,1,B,B: DMF Module plus CSC
+2255,Passenger Cars,RENAULT,"MEGANE III Hatchback (BZ0/1_, B3_)","1.5 dCi (BZ1G, BZ1W, BZ0R)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 846,1,1,B,B: DMF Module plus CSC
+2295,Passenger Cars,NISSAN,PULSAR Hatchback (C13) | TIIDA | SYLPHY,1.5 dCi,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K,1,1,B,B: DMF Module plus CSC
+2335,Passenger Cars,RENAULT,"KADJAR (HA_, HL_)",1.5 dCi 110 (HLA3),X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 646, K9K 647, K9K 648, K9K 649",1,1,B,B: DMF Module plus CSC
+2375,Passenger Cars,RENAULT,MEGANE IV Hatchback (B9A/M/N_) | MEGANE III,1.5 dCi 110 (B9A3),X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 646, K9K 648, K9K 656, K9K 657",1,1,B,B: DMF Module plus CSC
+2415,Passenger Cars,RENAULT,MEGANE IV Grandtour (K9A/M/N_),1.5 dCi 110,X,Y,Estate | Estate | Grandtour | Sport Tourer | Sporter,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 656, K9K 657",1,1,B,B: DMF Module plus CSC
+2455,Passenger Cars,DACIA,LODGY (JS_),1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 666, K9K 846",1,1,B,B: DMF Module plus CSC
+2495,Passenger Cars,RENAULT,MEGANE IV Saloon (LVA/M/N),1.5 dCi 90 (LVA1),X,Y,Saloon | Grand Coupe,Front-Wheel Drive,1.5,"1,461",DIESEL,66,90,4,2,Diesel,K9K 656,1,1,B,B: DMF Module plus CSC
+2535,Passenger Cars,NISSAN,KICKS (D15K),1.5 D,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K,1,1,B,B: DMF Module plus CSC
+2575,Passenger Cars,RENAULT,MEGANE III Grandtour (KZ0/1) | GRAN TOUR,"1.5 dCi (KZ1M, KZ1W, KZ0R)",X,Y,Estate | Grandtour,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K 832, K9K 836, K9K 846",1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2615,Passenger Cars,RENAULT,GRAND SCÉNIC III (JZ0/1_),"1.5 dCi (JZ09, JZ0D, JZ10, JZ14, JZ1G, JZ29, JZ2C)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 656, K9K 657, K9K 836, K9K 837",1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2655,Passenger Cars,RENAULT,KANGOO BE BOP (KW0/1_),1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,80,110,4,2,Diesel,K9K 804,1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2695,Light Commercial Vehicles,NISSAN,NV200 Van,"1.5 dCi 110 (M20, M20N, M20M)",X,Y,Van,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 636, K9K 646",1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2735,Passenger Cars,RENAULT,MODUS / GRAND MODUS (F/JP0_),"1.5 dCi (JP0G, JP0H)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 764,1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2775,Passenger Cars,RENAULT,"MEGANE II (BM0/1_, CM0/1_)","1.5 dCi (BM1E, CM1E)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 732,1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2815,Passenger Cars,RENAULT,"CLIO III (BR0/1, CR0/1) | CLIO CAMPUS | LUTECIA","1.5 dCi (BR1C, CR1C)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 772,1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2855,Passenger Cars,RENAULT,"MEGANE II (BM0/1_, CM0/1_)","1.5 dCi (BM16, CM16)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 734,1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2895,Passenger Cars,RENAULT,LAGUNA III Grandtour (KT0/1),"1.5 dCi (KT0A, KT0R, KT02)",X,Y,Estate | Grandtour | Sport Tourer | Sportour,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 780, K9K 782, K9K 846",1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2935,Passenger Cars,NISSAN,TIIDA Hatchback (C11) | LATIO,1.5 dCi,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,"K9K, K9K 278",1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+2975,Passenger Cars,RENAULT,KANGOO BE BOP (KW0/1_),1.5 dCi (KW0F),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 806,1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3015,Passenger Cars,NISSAN,"NOTE (E11, NE11)",1.5 dCi,X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,76,103,4,2,Diesel,K9K 288,1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3055,Passenger Cars,RENAULT,FLUENCE (L3_),"1.5 dCi (L30D, L30L, L306, L33F, L33L, L33M, L33V, L33W)",X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 656, K9K 657, K9K 836, K9K 837",1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3095,Passenger Cars,RENAULT,MEGANE CC (EZ0/1_),"1.5 dCi (EZ09, EZ1G, EZ0D, EZ14)",X,Y,Convertible,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 836, K9K 837",1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3135,Passenger Cars,DACIA,DUSTER (HS_),1.5 dCi,X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,80,109,4,2,Diesel,"K9K 658, K9K 666, K9K 667, K9K 856, K9K 858",1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3175,Passenger Cars,RENAULT,LATITUDE (L70_),"1.5 dCi (L70R, L731)",X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 782, K9K 849",1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3215,Passenger Cars,RENAULT,"MEGANE III Hatchback (BZ0/1_, B3_)","1.5 dCi (BZ1G, BZ1W, BZ0R)",X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 846,1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3255,Passenger Cars,NISSAN,PULSAR Hatchback (C13) | TIIDA | SYLPHY,1.5 dCi,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K,1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3295,Passenger Cars,RENAULT,"KADJAR (HA_, HL_)",1.5 dCi 110 (HLA3),X,Y,SUV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 646, K9K 647, K9K 648, K9K 649",1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3335,Passenger Cars,RENAULT,TALISMAN (LP_),1.5 dCi 110 (LPA3),X,Y,Saloon,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 646, K9K 647",1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3375,Passenger Cars,RENAULT,TALISMAN Grandtour (KP_),1.5 dCi 110,X,Y,Estate | Grandtour | Sport Tourer,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 646, K9K 647, K9K 648, K9K 649",1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3415,Passenger Cars,RENAULT,CLIO IV (BH_) | CLIO MIO | LUTECIA,1.5 dCi 110,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,K9K 646,1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3455,Light Commercial Vehicles,RENAULT,MEGANE II Estate Van (KM_),1.5 dCi (KM1E),X,Y,Estate Van,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 732,1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+3495,Light Commercial Vehicles,RENAULT,MEGANE III Hatchback Van (BZ_),"1.5 dCi (BZ0D, BZ1G, BZ1F, BZ1M, BZ1W, BZ0R, BZ10)",X,Y,Hatchback Van | Hatchback Van,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Diesel,"K9K 836, K9K 846",1,1,C,C: FULLPACK DMF (CSC) with Self Adjusting Technology
