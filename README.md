@@ -21,6 +21,11 @@ Any machine with Python 3.8+ can run it.
 
 ## Usage
 
+**Windows — easiest:** double-click **`run_analysis.bat`** to analyze `Book1.xlsx`,
+or drag any `.xlsx` file onto it. Results appear in the `analysis_output` folder.
+(Run the command below in **Command Prompt** — the `C:\...>` window — not inside
+the Python `>>>` prompt.)
+
 ```bash
 python3 analyze_crd.py [INPUT.xlsx] [--outdir DIR]
 ```
