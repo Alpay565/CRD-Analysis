@@ -265,6 +265,8 @@ def analyze(headers, rows):
     ktype_products = {}                 # ktype -> set of product labels
     ktype_competitors = {}             # ktype -> set of competitors
     ktype_limits = {}                  # ktype -> ordered list of distinct limitations
+    product_labels_order = []          # distinct product labels, in first-seen order
+    product_seen = set()
     missing_ktyp = 0
     missing_cp = 0
     inconsistent = []
@@ -297,7 +299,11 @@ def analyze(headers, rows):
         else:
             ktype_carpark[kt] = cp
             ktype_info[kt] = row
-        ktype_products.setdefault(kt, set()).add(product_label(row))
+        lbl = product_label(row)
+        ktype_products.setdefault(kt, set()).add(lbl)
+        if lbl not in product_seen:
+            product_seen.add(lbl)
+            product_labels_order.append(lbl)
         ktype_competitors.setdefault(kt, set()).add(_g(row, m, "competitor") or "?")
         lim_v = _g(row, m, "limitations").strip()
         kl = ktype_limits.setdefault(kt, [])
@@ -404,17 +410,22 @@ def analyze(headers, rows):
     for kt, cp in ktype_carpark.items():
         info = ktype_info.get(kt, [""] * len(headers))
         attrs = [_g(info, m, f) for f in attr_fields]
-        prods = sorted(ktype_products.get(kt, []))
+        pset = ktype_products.get(kt, set())
         comps = sorted(ktype_competitors.get(kt, []))
+        coverage = ["x" if lbl in pset else "" for lbl in product_labels_order]
         master_rows.append(
-            [kt] + attrs + [cp, len(prods), ", ".join(comps), " | ".join(prods)]
+            [kt] + attrs + [cp, len(pset), ", ".join(comps)] + coverage
         )
-    master_rows.sort(key=lambda r: r[len(attr_headers) + 1], reverse=True)
     cp_idx = len(attr_headers) + 1
+    master_rows.sort(key=lambda r: r[cp_idx], reverse=True)
     master_sheet = Sheet(
         "Ktype Master List",
-        ["KtypNr"] + attr_headers + ["Carpark", "# Products", "Competitors", "Products"],
+        ["KtypNr"] + attr_headers + ["Carpark", "# Products", "Competitors"]
+        + product_labels_order,
         master_rows, num_cols=[cp_idx, cp_idx + 1], bar_col=cp_idx,
+        note="One row per unique ktype. The product columns on the right are marked "
+             "'x' for every product that covers the ktype, so a ktype shared across "
+             "products shows more than one 'x'.",
     )
 
     # --- Shared ktypes (covered by more than one product) ------------------- #
@@ -443,19 +454,22 @@ def analyze(headers, rows):
     )
 
     # --- Simplified list (reporting-template layout, one row per ktype) ----- #
-    simplified_headers = [
+    simplified_vehicle_headers = [
         "Covered Vehicle", "Vehicle ID (Ktype)", "Car Marker", "Model", "Version",
         "From", "To", "Body Type", "Drive Type", "Litters", "cc", "Fuel type",
         "kW", "HP", "Cylinders", "Valves", "Engine Type", "Engine Code",
-        "Product Limitations", "Carpark", "# Products", "Covered in Products",
+        "Product Limitations", "Carpark", "# Products",
     ]
+    simplified_headers = product_labels_order + simplified_vehicle_headers
+    nprod = len(product_labels_order)
     simplified_rows = []
     for kt, cp in ktype_carpark.items():
         info = ktype_info.get(kt, [""] * len(headers))
-        prods = sorted(ktype_products.get(kt, []))
+        pset = ktype_products.get(kt, set())
         lims = ktype_limits.get(kt, [])
         lim = " / ".join(lims) if lims else "None"
-        simplified_rows.append([
+        coverage = ["x" if lbl in pset else "" for lbl in product_labels_order]
+        simplified_rows.append(coverage + [
             "",  # Covered Vehicle: manual "newly discovered application" flag - left blank
             kt, _g(info, m, "manufacturer"), _g(info, m, "model"),
             _g(info, m, "version"), _g(info, m, "year_from"), _g(info, m, "year_to"),
@@ -463,17 +477,19 @@ def analyze(headers, rows):
             _g(info, m, "displ_cc"), _g(info, m, "fuel"), _g(info, m, "kw"),
             _g(info, m, "hp"), _g(info, m, "cylinders"), _g(info, m, "valves"),
             _g(info, m, "engine_type"), _g(info, m, "engine_codes"), lim, cp,
-            len(prods), " | ".join(prods),
+            len(pset),
         ])
-    simplified_rows.sort(key=lambda r: (r[20], r[19]), reverse=True)
+    cp_col = nprod + 19       # Carpark column position
+    nprod_col = nprod + 20    # "# Products" column position
+    simplified_rows.sort(key=lambda r: (r[nprod_col], r[cp_col]), reverse=True)
     simplified_sheet = Sheet(
         "Simplified List", simplified_headers, simplified_rows,
-        num_cols=[19, 20], bar_col=19,
-        note="Reporting-template column order with carpark added; one row per "
-             "unique ktype. 'Covered in Products' lists every product covering the "
-             "ktype, so applications shared across products are visible here. "
-             "'Covered Vehicle' is left blank (a manual flag for newly discovered "
-             "applications).",
+        num_cols=[cp_col, nprod_col], bar_col=cp_col,
+        note="Reporting-template layout, one row per unique ktype. The product "
+             "columns on the left are marked 'x' for each product that covers the "
+             "ktype (mirroring the source template's part-number columns), so a "
+             "ktype shared across products shows more than one 'x'. 'Covered "
+             "Vehicle' is left blank (a manual flag for newly discovered applications).",
     )
 
     summary = OrderedDict([

@@ -43,6 +43,20 @@ python3 analyze_crd.py data.xlsx --outdir out   # choose the output folder
 
 A summary is printed to the console; full results go to `--outdir`.
 
+### Analyzing a different file
+
+The tool works on **any** workbook with the same column layout (see below) — not
+just `Book1.xlsx`. Three ways to point it at a new file:
+
+- **Drag-and-drop (Windows, no typing):** drag the `.xlsx` onto `run_analysis.bat`.
+- **Put it next to the tool:** drop your file in this folder and run
+  `python analyze_crd.py YOURFILE.xlsx`.
+- **Full path (file kept elsewhere):** wrap the path in quotes —
+  `python analyze_crd.py "C:\Users\amutlu\Documents\competitors_2026.xlsx"`.
+
+Each run overwrites `analysis_output/`; add `--outdir some_folder` to keep several
+analyses side by side.
+
 ## Outputs
 
 | File | What it contains |
@@ -53,8 +67,8 @@ A summary is printed to the console; full results go to `--outdir`.
 | `carpark_per_competitor.csv` | Same, grouped by competitor. |
 | `competitor_overlap.csv` | Exclusive vs. shared ktypes/carpark per competitor (gap analysis). |
 | `shared_ktypes.csv` | Every ktype covered by more than one product, with the covering products, competitors and carpark. |
-| `ktype_master.csv` | One row per unique ktype: vehicle details, carpark, and which products/competitors cover it. |
-| `simplified_list.csv` | Reporting-template columns (Covered Vehicle, Vehicle ID, Car Marker, Model, Version, …), one row per ktype, with **Carpark** and a **Covered in Products** column appended. `Covered Vehicle` is left blank (a manual flag for newly discovered applications). |
+| `ktype_master.csv` | One row per unique ktype: vehicle details, carpark, competitors, plus **one column per product** marked `x` where that product covers the ktype (a ktype shared by several products shows several `x`s). |
+| `simplified_list.csv` | Reporting-template columns (Covered Vehicle, Vehicle ID, Car Marker, Model, Version, …), one row per ktype, with **Carpark** appended and **one `x`-marked column per product on the left** (mirroring the source template's part-number columns). `Covered Vehicle` is left blank (a manual flag for newly discovered applications). |
 
 ## Expected input
 
