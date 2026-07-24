@@ -264,6 +264,7 @@ def analyze(headers, rows):
     ktype_info = {}                     # ktype -> representative attribute row
     ktype_products = {}                 # ktype -> set of product labels
     ktype_competitors = {}             # ktype -> set of competitors
+    ktype_limits = {}                  # ktype -> ordered list of distinct limitations
     missing_ktyp = 0
     missing_cp = 0
     inconsistent = []
@@ -298,6 +299,10 @@ def analyze(headers, rows):
             ktype_info[kt] = row
         ktype_products.setdefault(kt, set()).add(product_label(row))
         ktype_competitors.setdefault(kt, set()).add(_g(row, m, "competitor") or "?")
+        lim_v = _g(row, m, "limitations").strip()
+        kl = ktype_limits.setdefault(kt, [])
+        if lim_v and lim_v not in kl:
+            kl.append(lim_v)
 
     grand_total = sum(ktype_carpark.values())
     unique_ktypes = len(ktype_carpark)
@@ -412,34 +417,63 @@ def analyze(headers, rows):
         master_rows, num_cols=[cp_idx, cp_idx + 1], bar_col=cp_idx,
     )
 
-    # --- Simplified application list (template layout + carpark) ------------ #
+    # --- Shared ktypes (covered by more than one product) ------------------- #
+    shared_rows = []
+    for kt, cp in ktype_carpark.items():
+        prods = sorted(ktype_products.get(kt, []))
+        if len(prods) > 1:
+            info = ktype_info.get(kt, [""] * len(headers))
+            comps = sorted(ktype_competitors.get(kt, []))
+            shared_rows.append([
+                kt, _g(info, m, "manufacturer"), _g(info, m, "model"),
+                _g(info, m, "version"), cp, len(prods), len(comps),
+                " | ".join(prods), ", ".join(comps),
+            ])
+    shared_rows.sort(key=lambda r: (r[5], r[4]), reverse=True)
+    shared_count = len(shared_rows)
+    shared_sheet = Sheet(
+        "Shared Ktypes",
+        ["KtypNr", "Manufacturer", "Model", "Version", "Carpark",
+         "# Products", "# Competitors", "Products", "Competitors"],
+        shared_rows, num_cols=[4, 5, 6], bar_col=4,
+        note=("Ktypes covered by more than one product - the same car application "
+              "sold under several references. "
+              + ("No shared ktypes were found in this file."
+                 if shared_count == 0 else f"{shared_count} shared ktype(s).")),
+    )
+
+    # --- Simplified list (reporting-template layout, one row per ktype) ----- #
     simplified_headers = [
-        "Competitor", "Product", "Covered Vehicle", "Vehicle ID (Ktype)",
-        "Car Marker", "Model", "Version", "From", "To", "Body Type", "Drive Type",
-        "Litters", "cc", "Fuel type", "kW", "HP", "Cylinders", "Valves",
-        "Engine Type", "Engine Code", "Product Limitations", "Carpark",
+        "Covered Vehicle", "Vehicle ID (Ktype)", "Car Marker", "Model", "Version",
+        "From", "To", "Body Type", "Drive Type", "Litters", "cc", "Fuel type",
+        "kW", "HP", "Cylinders", "Valves", "Engine Type", "Engine Code",
+        "Product Limitations", "Carpark", "# Products", "Covered in Products",
     ]
     simplified_rows = []
-    for row in rows:
-        kt = _g(row, m, "ktyp").strip()
-        cp = parse_carpark(_g(row, m, "carpark")) or 0
-        prod = _g(row, m, "range") or _g(row, m, "product_name")
-        lim = _g(row, m, "limitations") or "None"
+    for kt, cp in ktype_carpark.items():
+        info = ktype_info.get(kt, [""] * len(headers))
+        prods = sorted(ktype_products.get(kt, []))
+        lims = ktype_limits.get(kt, [])
+        lim = " / ".join(lims) if lims else "None"
         simplified_rows.append([
-            _g(row, m, "competitor"), prod,
-            _g(row, m, "vehicle_type"), kt,
-            _g(row, m, "manufacturer"), _g(row, m, "model"), _g(row, m, "version"),
-            _g(row, m, "year_from"), _g(row, m, "year_to"),
-            _g(row, m, "body"), _g(row, m, "drive"),
-            _g(row, m, "displ_l"), _g(row, m, "displ_cc"), _g(row, m, "fuel"),
-            _g(row, m, "kw"), _g(row, m, "hp"), _g(row, m, "cylinders"),
-            _g(row, m, "valves"), _g(row, m, "engine_type"),
-            _g(row, m, "engine_codes"), lim, cp,
+            "",  # Covered Vehicle: manual "newly discovered application" flag - left blank
+            kt, _g(info, m, "manufacturer"), _g(info, m, "model"),
+            _g(info, m, "version"), _g(info, m, "year_from"), _g(info, m, "year_to"),
+            _g(info, m, "body"), _g(info, m, "drive"), _g(info, m, "displ_l"),
+            _g(info, m, "displ_cc"), _g(info, m, "fuel"), _g(info, m, "kw"),
+            _g(info, m, "hp"), _g(info, m, "cylinders"), _g(info, m, "valves"),
+            _g(info, m, "engine_type"), _g(info, m, "engine_codes"), lim, cp,
+            len(prods), " | ".join(prods),
         ])
+    simplified_rows.sort(key=lambda r: (r[20], r[19]), reverse=True)
     simplified_sheet = Sheet(
-        "Simplified List", simplified_headers, simplified_rows, num_cols=[21],
-        note="One row per application, in the reporting-template column order, "
-             "with carpark appended. 'Covered Vehicle' maps to Vehicle Type.",
+        "Simplified List", simplified_headers, simplified_rows,
+        num_cols=[19, 20], bar_col=19,
+        note="Reporting-template column order with carpark added; one row per "
+             "unique ktype. 'Covered in Products' lists every product covering the "
+             "ktype, so applications shared across products are visible here. "
+             "'Covered Vehicle' is left blank (a manual flag for newly discovered "
+             "applications).",
     )
 
     summary = OrderedDict([
@@ -448,10 +482,11 @@ def analyze(headers, rows):
         ("Application rows in file", len([r for r in rows if _g(r, m, "ktyp").strip()])),
         ("Competitors", len(comp_ktypes)),
         ("Products", len(prod_order)),
+        ("Ktypes shared across products", shared_count),
     ])
 
     sheets = [product_sheet, competitor_sheet, overlap_sheet,
-              master_sheet, simplified_sheet]
+              master_sheet, shared_sheet, simplified_sheet]
     return summary, sheets, warnings
 
 
@@ -821,6 +856,7 @@ def main(argv=None):
         "Carpark per Product": "carpark_per_product.csv",
         "Carpark per Competitor": "carpark_per_competitor.csv",
         "Competitor Overlap": "competitor_overlap.csv",
+        "Shared Ktypes": "shared_ktypes.csv",
         "Ktype Master List": "ktype_master.csv",
         "Simplified List": "simplified_list.csv",
     }
