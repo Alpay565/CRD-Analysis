@@ -10,7 +10,8 @@ that are painful to build by hand:
 - **Carpark per product** (and per competitor) — how much market each product covers
 - **Ktype master list** — every unique ktype/car application with its carpark
 - **Total carpark per ktype**, deduplicated, with **cross-competitor overlap / gap** analysis
-- **Simplified application list** in the reporting-template column layout, with **carpark added**
+- **Shared ktypes** — every ktype covered by more than one product, so overlapping applications are easy to spot
+- **Simplified application list** in the reporting-template column layout, with **carpark added** and a **Covered in Products** column
 
 ## Requirements
 
@@ -41,13 +42,14 @@ A summary is printed to the console; full results go to `--outdir`.
 
 | File | What it contains |
 |------|------------------|
-| `CRD_Analysis.xlsx` | Formatted workbook with all analyses on separate sheets (Summary, Carpark per Product, Carpark per Competitor, Competitor Overlap, Ktype Master List, Simplified List). Header row is frozen and filterable; carpark is a real number. |
+| `CRD_Analysis.xlsx` | Formatted workbook with all analyses on separate sheets (Summary, Carpark per Product, Carpark per Competitor, Competitor Overlap, Ktype Master List, Shared Ktypes, Simplified List). Header row is frozen and filterable; carpark is a real number. |
 | `CRD_Analysis.html` | Self-contained dashboard — opens in any browser, no internet needed. KPI cards + every table with inline carpark bars. |
 | `carpark_per_product.csv` | Applications and total carpark per product, with % of total. |
 | `carpark_per_competitor.csv` | Same, grouped by competitor. |
 | `competitor_overlap.csv` | Exclusive vs. shared ktypes/carpark per competitor (gap analysis). |
+| `shared_ktypes.csv` | Every ktype covered by more than one product, with the covering products, competitors and carpark. |
 | `ktype_master.csv` | One row per unique ktype: vehicle details, carpark, and which products/competitors cover it. |
-| `simplified_list.csv` | The reporting-template columns (Covered Vehicle, Vehicle ID, Car Marker, Model, Version, …) with carpark appended. |
+| `simplified_list.csv` | Reporting-template columns (Covered Vehicle, Vehicle ID, Car Marker, Model, Version, …), one row per ktype, with **Carpark** and a **Covered in Products** column appended. `Covered Vehicle` is left blank (a manual flag for newly discovered applications). |
 
 ## Expected input
 
