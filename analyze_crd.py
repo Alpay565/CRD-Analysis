@@ -535,6 +535,15 @@ def print_console(summary, sheets, warnings):
 # --------------------------------------------------------------------------- #
 # Output: CSV
 # --------------------------------------------------------------------------- #
+def read_csv_rows(path):
+    """Read a CSV written by write_csv(), skipping the leading 'sep=' hint."""
+    with open(path, newline="", encoding="utf-8-sig") as f:
+        first = f.readline()
+        if not first.lower().startswith("sep="):
+            f.seek(0)
+        return list(csv.reader(f))
+
+
 def _csv_value(sheet, ci, v):
     if ci in sheet.pct_cols and isinstance(v, (int, float)):
         return round(v * 100, 1)
@@ -542,7 +551,16 @@ def _csv_value(sheet, ci, v):
 
 
 def write_csv(sheet, path):
+    """Write the sheet as CSV.
+
+    The leading ``sep=,`` line is an Excel hint: without it, Excel splits
+    columns using the machine's regional list separator (a semicolon in many
+    locales) and a comma-separated file lands entirely in column A. Excel
+    consumes this line instead of showing it. Readers that don't understand it
+    (including this tool's own viewer) skip it explicitly.
+    """
     with open(path, "w", newline="", encoding="utf-8-sig") as f:
+        f.write("sep=,\r\n")
         w = csv.writer(f)
         headers = [h + " (%)" if ci in sheet.pct_cols else h
                    for ci, h in enumerate(sheet.headers)]

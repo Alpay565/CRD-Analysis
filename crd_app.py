@@ -46,8 +46,8 @@ import analyze_crd  # noqa: E402
 # --------------------------------------------------------------------------- #
 # Output file name -> short description, in the order to present them.
 OUTPUT_FILES = [
+    ("CRD_Analysis.xlsx", "BEST FOR EXCEL - every table as a formatted sheet"),
     ("CRD_Analysis.html", "Interactive dashboard - open this first"),
-    ("CRD_Analysis.xlsx", "Full Excel workbook (all sheets)"),
     ("simplified_list.csv", "Simplified vehicle list + carpark + product columns"),
     ("ktype_master.csv", "Every unique ktype with carpark & product coverage"),
     ("shared_ktypes.csv", "Ktypes covered by more than one product"),
@@ -213,10 +213,8 @@ def _looks_numeric(s):
 
 def _csv_to_html(path, name, session):
     """Render a CSV file as a readable, searchable HTML table page."""
-    import csv as _csv
-
-    with open(path, newline="", encoding="utf-8-sig") as f:
-        table = list(_csv.reader(f))
+    # Uses the shared reader so the Excel 'sep=' hint line is skipped.
+    table = analyze_crd.read_csv_rows(path)
 
     head = table[0] if table else []
     body = table[1:] if len(table) > 1 else []
@@ -520,6 +518,9 @@ function render(d){
     h += '</ul></div>';
   }
   h += '<div class="section-title">Documents</div>';
+  h += '<div class="warn">Working in Excel? Download <b>CRD_Analysis.xlsx</b> &ndash; ' +
+       'it has every table as a properly formatted sheet. The .csv files are plain ' +
+       'text exports for other tools.</div>';
   h += '<div class="toolbar"><a class="btn" href="/download_all/' + d.session + '">&#11015; Download all (.zip)</a>';
   h += '<a class="btn ghost" href="#" onclick="reset();return false;">Analyze another file</a></div>';
   d.files.forEach(f => {
