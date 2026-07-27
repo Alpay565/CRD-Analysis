@@ -272,14 +272,24 @@ def analyze(headers, rows):
     inconsistent = []
 
     def product_label(row):
-        rng = _g(row, m, "range")
-        pn = _g(row, m, "product_name")
-        ref = _g(row, m, "reference")
-        comp = _g(row, m, "competitor")
-        base = rng or pn or (("Ref " + ref) if ref else "") or "Unknown"
+        """Column header for a product: 'COMPETITOR: REFERENCE - Product Name'.
+
+        The reference is the part number the product is ordered by, so it has to
+        be visible on the coverage columns. Any part that is missing from the
+        source file is simply left out of the label.
+        """
+        rng = _g(row, m, "range").strip()
+        pn = _g(row, m, "product_name").strip()
+        ref = _g(row, m, "reference").strip()
+        comp = _g(row, m, "competitor").strip()
+        base = rng or pn
         if base in ("Undefined", "") and pn:
             base = pn
-        return f"{comp}: {base}".strip(": ") if comp else base
+        if not base:
+            base = ("Ref " + ref) if ref else "Unknown"
+        elif ref:
+            base = f"{ref} - {base}"
+        return f"{comp}: {base}" if comp else base
 
     for row in rows:
         kt = _g(row, m, "ktyp").strip()

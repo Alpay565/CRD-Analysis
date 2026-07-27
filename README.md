@@ -96,7 +96,7 @@ analyses side by side.
 | `carpark_per_competitor.csv` | Same, grouped by competitor. |
 | `competitor_overlap.csv` | Exclusive vs. shared ktypes/carpark per competitor (gap analysis). |
 | `shared_ktypes.csv` | Every ktype covered by more than one product, with the covering products, competitors and carpark. |
-| `ktype_master.csv` | One row per unique ktype: vehicle details, carpark, competitors, plus **one column per product** marked `x` where that product covers the ktype (a ktype shared by several products shows several `x`s). |
+| `ktype_master.csv` | One row per unique ktype: vehicle details, carpark, competitors, plus **one column per product** marked `x` where that product covers the ktype (a ktype shared by several products shows several `x`s). Product columns are labelled `Competitor: Reference - Product Name`, so each column names the part number it belongs to. |
 | `simplified_list.csv` | Reporting-template columns (Covered Vehicle, Vehicle ID, Car Marker, Model, Version, …), one row per ktype, with **Carpark** appended and **one `x`-marked column per product on the left** (mirroring the source template's part-number columns). `Covered Vehicle` is left blank (a manual flag for newly discovered applications). |
 
 ## Project files

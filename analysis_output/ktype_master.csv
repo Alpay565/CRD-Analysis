@@ -1,5 +1,5 @@
 ﻿sep=,
-KtypNr,Vehicle Type,Manufacturer,Model,Version,Year From,Year To,Body Type,Drive Type,Displacement (l),Displacement (cc),Fuel Type,kW,HP,Cylinders,Valves,Engine Type,Engine Codes,Product Limitations,Carpark,# Products,Competitors,A: LuK DMF,A: LuK RepSet DMF,B: DMF Module plus CSC,C: FULLPACK DMF (CSC) with Self Adjusting Technology
+KtypNr,Vehicle Type,Manufacturer,Model,Version,Year From,Year To,Body Type,Drive Type,Displacement (l),Displacement (cc),Fuel Type,kW,HP,Cylinders,Valves,Engine Type,Engine Codes,Product Limitations,Carpark,# Products,Competitors,A: 1 - LuK DMF,A: 2 - LuK RepSet DMF,B: 3 - DMF Module plus CSC,C: 4 - FULLPACK DMF (CSC) with Self Adjusting Technology
 45,Passenger Cars,RENAULT,SCÉNIC IV (J9_),1.5 dCi 110 Hybrid Assist (J9AE),X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,81,110,4,2,Mild Hybrid,"K9K 500, K9K 502",1) TecDoc Engine Number : 34673,30,1,A,x,,,
 85,Passenger Cars,RENAULT,"MEGANE III Hatchback (BZ0/1_, B3_)",1.5 dCi,X,Y,Hatchback,Front-Wheel Drive,1.5,"1,461",DIESEL,78,106,4,2,Diesel,K9K 832,None,30,1,A,,x,,
 125,Passenger Cars,RENAULT,SCÉNIC III (JZ0/1_),"1.5 dCi (JZ02, JZ0R)",X,Y,MPV,Front-Wheel Drive,1.5,"1,461",DIESEL,70,95,4,2,Diesel,K9K 846,None,30,1,A,,x,,
