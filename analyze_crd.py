@@ -402,14 +402,19 @@ def analyze(headers, rows):
                    "year_from", "year_to", "body", "drive", "displ_l", "displ_cc",
                    "fuel", "kw", "hp", "cylinders", "valves", "engine_type",
                    "engine_codes"]
+    # "Product Limitations" is appended separately: it is collected across all of
+    # the ktype's rows (ktype_limits), not read from the representative row.
     attr_headers = ["Vehicle Type", "Manufacturer", "Model", "Version",
                     "Year From", "Year To", "Body Type", "Drive Type",
                     "Displacement (l)", "Displacement (cc)", "Fuel Type", "kW",
-                    "HP", "Cylinders", "Valves", "Engine Type", "Engine Codes"]
+                    "HP", "Cylinders", "Valves", "Engine Type", "Engine Codes",
+                    "Product Limitations"]
     master_rows = []
     for kt, cp in ktype_carpark.items():
         info = ktype_info.get(kt, [""] * len(headers))
-        attrs = [_g(info, m, f) for f in attr_fields]
+        lims = ktype_limits.get(kt, [])
+        attrs = [_g(info, m, f) for f in attr_fields] + [
+            " / ".join(lims) if lims else "None"]
         pset = ktype_products.get(kt, set())
         comps = sorted(ktype_competitors.get(kt, []))
         coverage = ["x" if lbl in pset else "" for lbl in product_labels_order]
@@ -435,17 +440,20 @@ def analyze(headers, rows):
         if len(prods) > 1:
             info = ktype_info.get(kt, [""] * len(headers))
             comps = sorted(ktype_competitors.get(kt, []))
+            lims = ktype_limits.get(kt, [])
             shared_rows.append([
                 kt, _g(info, m, "manufacturer"), _g(info, m, "model"),
                 _g(info, m, "version"), cp, len(prods), len(comps),
                 " | ".join(prods), ", ".join(comps),
+                " / ".join(lims) if lims else "None",
             ])
     shared_rows.sort(key=lambda r: (r[5], r[4]), reverse=True)
     shared_count = len(shared_rows)
     shared_sheet = Sheet(
         "Shared Ktypes",
         ["KtypNr", "Manufacturer", "Model", "Version", "Carpark",
-         "# Products", "# Competitors", "Products", "Competitors"],
+         "# Products", "# Competitors", "Products", "Competitors",
+         "Product Limitations"],
         shared_rows, num_cols=[4, 5, 6], bar_col=4,
         note=("Ktypes covered by more than one product - the same car application "
               "sold under several references. "
