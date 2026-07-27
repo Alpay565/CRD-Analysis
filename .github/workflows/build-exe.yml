@@ -1,0 +1,65 @@
+name: Build Windows app (CRD_Analyzer.exe)
+
+# Builds the standalone Windows application. Run it manually from the
+# Actions tab ("Run workflow"), or it runs automatically on pushes that
+# touch the app sources. The finished .exe is attached to the run as a
+# downloadable artifact.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "crd_app.py"
+      - "analyze_crd.py"
+      - ".github/workflows/build-exe.yml"
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install PyInstaller
+        run: python -m pip install --upgrade pip pyinstaller
+
+      - name: Build CRD_Analyzer.exe
+        run: >
+          python -m PyInstaller --onefile --noconsole
+          --name CRD_Analyzer
+          --hidden-import analyze_crd
+          crd_app.py
+
+      - name: Smoke-test the executable
+        shell: pwsh
+        run: |
+          # Start the app headless, then check it serves its page and analyzes Book1.xlsx.
+          $app = Start-Process -FilePath "dist\CRD_Analyzer.exe" `
+            -ArgumentList "--no-browser","--port","8765" -PassThru
+          try {
+            Start-Sleep -Seconds 8
+            $page = Invoke-WebRequest -Uri "http://127.0.0.1:8765/" -UseBasicParsing
+            if ($page.StatusCode -ne 200) { throw "Home page returned $($page.StatusCode)" }
+            $bytes = [System.IO.File]::ReadAllBytes("Book1.xlsx")
+            $resp = Invoke-WebRequest -Uri "http://127.0.0.1:8765/analyze" -Method Post `
+              -Body $bytes -Headers @{ "X-Filename" = "Book1.xlsx" } -UseBasicParsing
+            $data = $resp.Content | ConvertFrom-Json
+            if (-not $data.ok) { throw "Analysis failed: $($data.error)" }
+            Write-Host "Analyzed OK - $($data.files.Count) documents produced."
+            if ($data.files.Count -lt 8) { throw "Expected 8 documents, got $($data.files.Count)" }
+          }
+          finally {
+            if (-not $app.HasExited) { Stop-Process -Id $app.Id -Force }
+          }
+
+      - name: Upload CRD_Analyzer.exe
+        uses: actions/upload-artifact@v4
+        with:
+          name: CRD_Analyzer-windows
+          path: dist/CRD_Analyzer.exe
+          if-no-files-found: error

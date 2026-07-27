@@ -13,13 +13,42 @@ that are painful to build by hand:
 - **Shared ktypes** — every ktype covered by more than one product, so overlapping applications are easy to spot
 - **Simplified application list** in the reporting-template column layout, with **carpark added** and a **Covered in Products** column
 
+## The app (easiest way to use it)
+
+**`CRD_Analyzer.exe`** is a single, standalone application — no Python, no
+install, no command line:
+
+1. **Double-click** `CRD_Analyzer.exe`. It opens a page in your browser.
+2. **Drag your `.xlsx` onto the page** (or click to browse).
+3. See the **list of documents** it produced, **View** any of them right in the
+   browser, and **Download** the ones you want — individually or all as a `.zip`.
+4. Click **Quit the app** (or close the window) when you're done.
+
+Everything runs locally on your PC — the app serves its page from `127.0.0.1`
+and nothing is uploaded anywhere.
+
+### Getting the app
+
+- **Download a ready-made build:** go to the repository's **Actions** tab →
+  *Build Windows app (CRD_Analyzer.exe)* → open the most recent successful run →
+  download the **`CRD_Analyzer-windows`** artifact and unzip it. (You can also
+  start a fresh build there with **Run workflow**.)
+- **Or build it yourself:** double-click **`build_exe.bat`** once on your Windows
+  PC. It installs PyInstaller and writes `dist\CRD_Analyzer.exe`.
+- **No `.exe` needed:** the same app runs straight from source with
+  `python crd_app.py` — useful if company policy blocks unsigned executables.
+
+> If Windows SmartScreen warns about an unrecognized app (normal for unsigned
+> executables), choose **More info → Run anyway**, or just use `python crd_app.py`.
+
 ## Requirements
 
 **None.** The tool uses only the Python 3 standard library — no `pip install`,
 no pandas/openpyxl. It reads `.xlsx` directly and writes Excel, HTML and CSV.
-Any machine with Python 3.8+ can run it.
+Any machine with Python 3.8+ can run it. (Building the `.exe` is the one step
+that needs an extra package, PyInstaller, and must be done on Windows.)
 
-## Usage
+## Command-line usage
 
 **Windows — easiest:** double-click **`run_analysis.bat`** to analyze `Book1.xlsx`,
 or drag any `.xlsx` file onto it. Results appear in the `analysis_output` folder.
@@ -69,6 +98,18 @@ analyses side by side.
 | `shared_ktypes.csv` | Every ktype covered by more than one product, with the covering products, competitors and carpark. |
 | `ktype_master.csv` | One row per unique ktype: vehicle details, carpark, competitors, plus **one column per product** marked `x` where that product covers the ktype (a ktype shared by several products shows several `x`s). |
 | `simplified_list.csv` | Reporting-template columns (Covered Vehicle, Vehicle ID, Car Marker, Model, Version, …), one row per ktype, with **Carpark** appended and **one `x`-marked column per product on the left** (mirroring the source template's part-number columns). `Covered Vehicle` is left blank (a manual flag for newly discovered applications). |
+
+## Project files
+
+| File | Purpose |
+|------|---------|
+| `crd_app.py` | The application (drag-and-drop UI in your browser). Built into `CRD_Analyzer.exe`. |
+| `analyze_crd.py` | The analysis engine — also usable on its own from the command line. |
+| `build_exe.bat` | Build `CRD_Analyzer.exe` on Windows (one-time). |
+| `run_analysis.bat` | Command-line-free way to run the analysis without the app. |
+| `.github/workflows/build-exe.yml` | Builds and smoke-tests the `.exe` on a Windows runner. |
+| `Book1.xlsx` | Example input. |
+| `analysis_output/` | Example results generated from `Book1.xlsx`. |
 
 ## Expected input
 
