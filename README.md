@@ -90,7 +90,7 @@ analyses side by side.
 
 | File | What it contains |
 |------|------------------|
-| `CRD_Analysis.xlsx` | Formatted workbook with all analyses on separate sheets (Summary, Carpark per Product, Carpark per Competitor, Competitor Overlap, Ktype Master List, Shared Ktypes, Simplified List). Header row is frozen and filterable; carpark is a real number. |
+| `CRD_Analysis.xlsx` | **Use this one in Excel.** Formatted workbook with all analyses on separate sheets (Summary, Carpark per Product, Carpark per Competitor, Competitor Overlap, Ktype Master List, Shared Ktypes, Simplified List). Header row is frozen and filterable; carpark is a real number. |
 | `CRD_Analysis.html` | Self-contained dashboard — opens in any browser, no internet needed. KPI cards + every table with inline carpark bars. |
 | `carpark_per_product.csv` | Applications and total carpark per product, with % of total. |
 | `carpark_per_competitor.csv` | Same, grouped by competitor. |
@@ -110,6 +110,22 @@ analyses side by side.
 | `.github/workflows/build-exe.yml` | Builds and smoke-tests the `.exe` on a Windows runner. |
 | `Book1.xlsx` | Example input. |
 | `analysis_output/` | Example results generated from `Book1.xlsx`. |
+
+## Opening the results in Excel
+
+For Excel work, open **`CRD_Analysis.xlsx`** — every analysis is a separate,
+formatted sheet with frozen, filterable headers and carpark stored as real
+numbers.
+
+The `.csv` files are plain-text exports. They now start with a `sep=,` line so
+Excel splits them into columns correctly **in any regional setting** — without
+it, Excel uses the machine's list separator (a semicolon in Turkish, German,
+French and many other locales) and a comma-separated file lands entirely in
+column A. Excel consumes that line rather than displaying it.
+
+If a CSV still opens as one column (older Excel, or the file was edited), use
+**Data → From Text/CSV** and pick comma as the delimiter — or just use the
+`.xlsx`.
 
 ## Expected input
 
