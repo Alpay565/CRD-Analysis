@@ -20,6 +20,7 @@ Python standard library (the analysis engine is reused from analyze_crd.py).
 from __future__ import annotations
 
 import argparse
+import html as _html
 import io
 import json
 import os
@@ -159,6 +160,131 @@ CONTENT_TYPES = {
 
 
 # --------------------------------------------------------------------------- #
+# CSV -> readable HTML table (for the in-app "View" button)
+# --------------------------------------------------------------------------- #
+_VIEWER_CSS = """
+:root{--bg:#f4f6fb;--card:#fff;--ink:#1f2733;--muted:#5b6675;--line:#e2e7f0;
+--accent:#305496;}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+background:var(--bg);color:var(--ink);font-size:14px;line-height:1.45}
+header{background:var(--accent);color:#fff;padding:16px 22px;display:flex;
+align-items:center;gap:14px;flex-wrap:wrap}
+header h1{margin:0;font-size:17px;font-weight:650;flex:1;min-width:220px}
+header .count{opacity:.85;font-size:12.5px;font-weight:400}
+.btn{display:inline-block;border:1px solid #fff;background:#fff;color:var(--accent);
+padding:6px 12px;border-radius:8px;font-size:13px;text-decoration:none;font-weight:600}
+.btn.ghost{background:transparent;color:#fff}
+main{padding:16px 22px 50px}
+.tools{margin-bottom:12px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+#q{padding:8px 11px;border:1px solid var(--line);border-radius:8px;font-size:13px;
+min-width:260px;background:var(--card);color:var(--ink)}
+#shown{color:var(--muted);font-size:12.5px}
+.tablewrap{overflow:auto;max-height:calc(100vh - 190px);border:1px solid var(--line);
+border-radius:10px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:13px}
+thead th{position:sticky;top:0;background:var(--accent);color:#fff;text-align:left;
+padding:9px 11px;font-weight:600;white-space:nowrap;z-index:1}
+tbody td{padding:6px 11px;border-bottom:1px solid var(--line);vertical-align:top;
+max-width:340px;overflow-wrap:anywhere}
+tbody tr:nth-child(even){background:#fafbfe}
+td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.mark{text-align:center;font-weight:700;color:var(--accent)}
+tbody tr.hide{display:none}
+@media (prefers-color-scheme:dark){
+:root{--bg:#12161d;--card:#1a2029;--ink:#e6ebf2;--muted:#9aa6b6;--line:#2a323d;
+--accent:#3a5da8}
+tbody tr:nth-child(even){background:#1e2530}
+.btn{background:#e9eef8;border-color:#e9eef8}}
+"""
+
+
+def _looks_numeric(s):
+    """True for plain numbers like '1234', '1,234', '81', '1.5' (not '1.5 dCi')."""
+    t = s.strip().replace(",", "")
+    if not t or t in "-+":
+        return False
+    try:
+        float(t)
+        return True
+    except ValueError:
+        return False
+
+
+def _csv_to_html(path, name, session):
+    """Render a CSV file as a readable, searchable HTML table page."""
+    import csv as _csv
+
+    with open(path, newline="", encoding="utf-8-sig") as f:
+        table = list(_csv.reader(f))
+
+    head = table[0] if table else []
+    body = table[1:] if len(table) > 1 else []
+
+    thead = "".join(f"<th>{_html.escape(h)}</th>" for h in head)
+
+    rows_html = []
+    for row in body:
+        # Pad short rows so columns stay aligned with the header.
+        if len(row) < len(head):
+            row = row + [""] * (len(head) - len(row))
+        cells = []
+        for v in row:
+            v = v or ""
+            if v.strip().lower() == "x":
+                cells.append(f'<td class="mark">{_html.escape(v)}</td>')
+            elif _looks_numeric(v):
+                cells.append(f'<td class="num">{_html.escape(v)}</td>')
+            else:
+                esc = _html.escape(v)
+                # Keep long text scannable: full value available on hover.
+                title = f' title="{esc}"' if len(v) > 60 else ""
+                cells.append(f"<td{title}>{esc}</td>")
+        rows_html.append("<tr>" + "".join(cells) + "</tr>")
+
+    n = len(body)
+    dl = f"/download/{session}/{urllib.parse.quote(name)}"
+    return f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{_html.escape(name)} - CRD Analyzer</title>
+<style>{_VIEWER_CSS}</style></head><body>
+<header>
+  <h1>{_html.escape(name)} <span class="count">&middot; {n:,} rows</span></h1>
+  <a class="btn ghost" href="/">&#8592; Back to results</a>
+  <a class="btn" href="{dl}">&#11015; Download this file</a>
+</header>
+<main>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Filter rows... (e.g. RENAULT, 1.5 dCi)">
+    <span id="shown">{n:,} of {n:,} rows</span>
+  </div>
+  <div class="tablewrap">
+    <table><thead><tr>{thead}</tr></thead>
+    <tbody>{''.join(rows_html)}</tbody></table>
+  </div>
+</main>
+<script>
+const q = document.getElementById('q');
+const shown = document.getElementById('shown');
+const rows = Array.from(document.querySelectorAll('tbody tr'));
+const total = rows.length;
+const fmt = n => n.toLocaleString();
+q.addEventListener('input', () => {{
+  const term = q.value.trim().toLowerCase();
+  let count = 0;
+  rows.forEach(tr => {{
+    const hit = !term || tr.textContent.toLowerCase().includes(term);
+    tr.classList.toggle('hide', !hit);
+    if (hit) count++;
+  }});
+  shown.textContent = fmt(count) + ' of ' + fmt(total) + ' rows';
+}});
+</script>
+</body></html>"""
+
+
+# --------------------------------------------------------------------------- #
 # HTTP handler
 # --------------------------------------------------------------------------- #
 class Handler(BaseHTTPRequestHandler):
@@ -203,7 +329,10 @@ class Handler(BaseHTTPRequestHandler):
             inline = seg[0] == "view" and ext in (".html", ".csv")
             ctype = CONTENT_TYPES.get(ext, "application/octet-stream")
             if seg[0] == "view" and ext == ".csv":
-                ctype = "text/plain; charset=utf-8"  # show as text in the browser
+                # Render the CSV as a readable table instead of raw text.
+                page = _csv_to_html(p, os.path.basename(p), seg[1])
+                self._send(200, "text/html; charset=utf-8", page)
+                return
             with open(p, "rb") as f:
                 data = f.read()
             extra = {}
@@ -396,10 +525,12 @@ function render(d){
   d.files.forEach(f => {
     const view = '/view/' + d.session + '/' + encodeURIComponent(f.name);
     const dl = '/download/' + d.session + '/' + encodeURIComponent(f.name);
+    // Only .html and .csv can be shown in the browser; .xlsx opens in Excel.
+    const canView = /\.(html|csv)$/i.test(f.name);
     h += '<div class="file"><div class="meta"><div class="n">' + esc(f.name) + '</div>' +
          '<div class="d">' + esc(f.desc) + '</div></div>' +
          '<div class="s">' + esc(f.size) + '</div>' +
-         '<a class="btn ghost" target="_blank" href="' + view + '">View</a>' +
+         (canView ? '<a class="btn ghost" target="_blank" href="' + view + '">View</a>' : '') +
          '<a class="btn" href="' + dl + '">Download</a></div>';
   });
   resultsEl.innerHTML = h;
