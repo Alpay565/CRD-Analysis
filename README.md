@@ -41,6 +41,12 @@ and nothing is uploaded anywhere.
 > If Windows SmartScreen warns about an unrecognized app (normal for unsigned
 > executables), choose **More info → Run anyway**, or just use `python crd_app.py`.
 
+## Kullanım kılavuzu (Türkçe)
+
+Adım adım Türkçe kılavuz, ekran görüntüleriyle:
+**[docs/CRD_Analyzer_Kullanim_Kilavuzu.pdf](docs/CRD_Analyzer_Kullanim_Kilavuzu.pdf)**
+(kaynağı: `docs/kullanim-kilavuzu.html`).
+
 ## Requirements
 
 **None.** The tool uses only the Python 3 standard library — no `pip install`,
