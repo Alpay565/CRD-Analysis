@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8">
+<title>CRD Analyzer - Kullanım Kılavuzu</title>
+<style>
+@page { size: A4; margin: 15mm 14mm 14mm 14mm; }
+* { box-sizing: border-box; }
+body { font-family: "Segoe UI", -apple-system, Roboto, Helvetica, Arial, sans-serif;
+  color: #1f2733; font-size: 10.5pt; line-height: 1.5; margin: 0; }
+h1 { font-size: 23pt; margin: 0 0 4px; color: #305496; letter-spacing: -.4px; }
+.sub { color: #5b6675; font-size: 11pt; margin-bottom: 14px; }
+h2 { font-size: 13pt; color: #fff; background: #305496; padding: 6px 11px;
+  border-radius: 6px; margin: 20px 0 10px; page-break-after: avoid; }
+h3 { font-size: 11pt; margin: 14px 0 5px; color: #305496; page-break-after: avoid; }
+p { margin: 7px 0; }
+ol, ul { margin: 7px 0 7px 20px; padding: 0; }
+li { margin: 4px 0; }
+code { background: #eef2f9; padding: 1px 5px; border-radius: 4px;
+  font-family: Consolas, "Courier New", monospace; font-size: 9.5pt; }
+pre { background: #1f2733; color: #e6ebf2; padding: 9px 12px; border-radius: 7px;
+  font-family: Consolas, "Courier New", monospace; font-size: 9pt;
+  overflow-wrap: break-word; white-space: pre-wrap; margin: 8px 0; }
+img { max-width: 100%; border: 1px solid #d7deea; border-radius: 7px; margin: 8px 0; }
+figure { margin: 10px 0 14px; page-break-inside: avoid; }
+figcaption { font-size: 9pt; color: #5b6675; margin-top: 4px; font-style: italic; }
+table { border-collapse: collapse; width: 100%; font-size: 9.5pt; margin: 9px 0;
+  page-break-inside: avoid; }
+th { background: #305496; color: #fff; text-align: left; padding: 6px 9px; font-weight: 600; }
+td { border-bottom: 1px solid #e2e7f0; padding: 5px 9px; vertical-align: top; }
+tr:nth-child(even) td { background: #fafbfe; }
+.note, .warn, .tip { padding: 9px 12px; border-radius: 7px; margin: 10px 0;
+  font-size: 10pt; page-break-inside: avoid; }
+.note { background: #eef4ff; border-left: 4px solid #4472c4; }
+.warn { background: #fff8e6; border-left: 4px solid #e0a800; }
+.tip  { background: #eafaf0; border-left: 4px solid #34a853; }
+.section { page-break-inside: auto; }
+.pb { page-break-before: always; }
+.lead { background: #f4f6fb; border: 1px solid #e2e7f0; border-radius: 9px;
+  padding: 12px 15px; margin-bottom: 6px; }
+.matrix td { text-align: center; font-weight: 700; color: #305496; }
+.matrix td.l { text-align: left; font-weight: 400; color: #1f2733; }
+footer { margin-top: 26px; border-top: 1px solid #e2e7f0; padding-top: 8px;
+  color: #5b6675; font-size: 8.5pt; }
+</style></head><body>
+
+<h1>CRD Analyzer</h1>
+<div class="sub">Kullanım Kılavuzu &middot; Rakip araç uygulama ve carpark listeleri için analiz uygulaması</div>
+
+<div class="lead">
+<b>Bu kılavuz kimin için?</b> Elinde rakip ürünlerin araç uygulama listesi (Excel)
+olan ve bu veriyi hızlıca analiz etmek isteyen herkes için. Program bilgisi
+gerekmez &mdash; uygulamayı açıp dosyanızı sürükleyip bırakmanız yeterlidir.
+</div>
+
+<div class="section">
+<h2>1. CRD Analyzer nedir?</h2>
+<p>
+CRD Analyzer, rakip ürünlerin <b>araç uygulama (ktype) ve carpark</b> listelerini
+saniyeler içinde analiz eden bir masaüstü uygulamasıdır. Elle yapılması saatler
+süren şu soruları otomatik yanıtlar:
+</p>
+<ul>
+  <li>Her ürünün kapsadığı toplam carpark ne kadar?</li>
+  <li>Hangi araç (ktype) hangi ürünlerde var, hangisinde yok?</li>
+  <li>Bir ktype birden fazla ürün tarafından mı kapsanıyor?</li>
+  <li>Rakiplerin özel (yalnızca kendilerinde olan) kapsaması ne?</li>
+</ul>
+<p>
+Sonuçları hem <b>Excel çalışma kitabı</b>, hem <b>etkileşimli pano</b>, hem de
+<b>CSV</b> olarak verir.
+</p>
+</div>
+
+<div class="section">
+<h2>2. Uygulamayı edinme</h2>
+<ol>
+  <li>Tarayıcıdan depoyu açın:
+      <code>github.com/Alpay565/CRD-Analysis</code></li>
+  <li>Üstteki <b>Actions</b> sekmesine tıklayın.</li>
+  <li>Soldan <b>Build Windows app</b> iş akışını, ardından en üstteki (en yeni)
+      çalışmayı seçin.</li>
+  <li>Sayfanın altındaki <b>Artifacts</b> bölümünden
+      <b>CRD_Analyzer-windows</b> dosyasını indirin.</li>
+  <li>İnen ZIP dosyasını sağ tıklayıp <b>Tümünü ayıkla</b> deyin.
+      İçinden <code>CRD_Analyzer.exe</code> çıkacaktır.</li>
+</ol>
+<div class="note">
+<b>Kurulum gerekmez.</b> <code>CRD_Analyzer.exe</code> tek başına çalışır;
+bilgisayarınıza Python veya başka bir program kurmanıza gerek yoktur.
+Dosyayı masaüstünüze koyabilirsiniz.
+</div>
+</div>
+
+<div class="section">
+<h2>3. İlk çalıştırma</h2>
+<p><code>CRD_Analyzer.exe</code> dosyasına <b>çift tıklayın</b>. Uygulama
+varsayılan tarayıcınızda açılır.</p>
+<div class="warn">
+<b>Windows uyarısı çıkarsa:</b> &ldquo;Windows kişisel bilgisayarınızı korudu&rdquo;
+mesajı görürseniz bu, uygulamanın dijital imzası olmamasından kaynaklanır (zararlı
+olduğu anlamına gelmez). <b>Ek bilgi</b> &rarr; <b>Yine de çalıştır</b> deyin.
+</div>
+<figure>
+  <img src="img/01-baslangic.png" alt="Başlangıç ekranı">
+  <figcaption>Uygulama açıldığında sizi karşılayan ekran.</figcaption>
+</figure>
+</div>
+
+<div class="section pb">
+<h2>4. Dosya analiz etme</h2>
+<p>Analiz etmek istediğiniz Excel dosyasını (<code>.xlsx</code>)
+<b>fare ile sürükleyip</b> sayfadaki kesik çizgili alana <b>bırakın</b>.</p>
+<p>Dilerseniz aynı alana tıklayıp dosyayı listeden de seçebilirsiniz.
+Analiz birkaç saniye sürer ve sonuçlar hemen aşağıda görünür.</p>
+<div class="tip">
+Her analiz bağımsızdır. Yeni bir dosya için <b>Analyze another file</b> düğmesine
+basıp yeni dosyayı sürüklemeniz yeterlidir.
+</div>
+</div>
+
+<div class="section">
+<h2>5. Sonuç ekranı</h2>
+<figure>
+  <img src="img/02-sonuclar.png" alt="Sonuç ekranı">
+  <figcaption>Analiz sonrası: özet kartlar ve üretilen belgelerin listesi.</figcaption>
+</figure>
+<p>Ekranın üst kısmındaki <b>özet kartlar</b> dosyanızın genel resmini verir:
+toplam carpark, tekil ktype sayısı, satır sayısı, rakip ve ürün sayısı ile
+<b>birden çok üründe geçen ktype sayısı</b>.</p>
+<p>Altındaki listede üretilen 8 belge yer alır. Her satırda:</p>
+<ul>
+  <li><b>View</b> &mdash; belgeyi tarayıcıda açar (yalnızca görüntülenebilenlerde çıkar).</li>
+  <li><b>Download</b> &mdash; belgeyi bilgisayarınıza indirir.</li>
+  <li><b>Download all (.zip)</b> &mdash; sekiz belgenin tamamını tek ZIP olarak indirir.</li>
+</ul>
+<p>İşiniz bittiğinde sayfanın en altındaki <b>Quit the app</b> bağlantısına
+tıklayarak uygulamayı kapatabilirsiniz.</p>
+</div>
+
+<div class="section">
+<h2>6. Hangi belge ne işe yarar?</h2>
+<table>
+<tr><th style="width:34%">Belge</th><th>Ne işe yarar</th></tr>
+<tr><td><b>CRD_Analysis.xlsx</b></td><td><b>Excel için bunu kullanın.</b> Bütün
+analizler ayrı ayrı, biçimlendirilmiş sayfalar hâlinde tek çalışma kitabında.</td></tr>
+<tr><td>CRD_Analysis.html</td><td>Etkileşimli pano. Tarayıcıda açılır, tabloları
+ve carpark çubuklarını bir arada gösterir.</td></tr>
+<tr><td>simplified_list.csv</td><td>Sadeleştirilmiş araç listesi: şablon
+sütun düzeni + carpark + ürün sütunları.</td></tr>
+<tr><td>ktype_master.csv</td><td>Tekil her ktype; carpark ve ürün kapsaması ile.</td></tr>
+<tr><td>shared_ktypes.csv</td><td>Birden fazla ürün tarafından kapsanan ktype'lar.</td></tr>
+<tr><td>carpark_per_product.csv</td><td>Ürün bazında toplam carpark.</td></tr>
+<tr><td>carpark_per_competitor.csv</td><td>Rakip bazında toplam carpark.</td></tr>
+<tr><td>competitor_overlap.csv</td><td>Rakibe özel ve ortak kapsama karşılaştırması.</td></tr>
+</table>
+<div class="note">
+CSV dosyaları düz metin dışa aktarımlardır. <b>Excel'de çalışacaksanız
+<code>CRD_Analysis.xlsx</code> dosyasını indirin</b> &mdash; sütun genişlikleri,
+filtreler ve sayı biçimleri hazır gelir.
+</div>
+</div>
+
+<div class="section pb">
+<h2>7. Excel çalışma kitabındaki sayfalar</h2>
+<p><code>CRD_Analysis.xlsx</code> dosyasını açtığınızda altta şu sayfaları görürsünüz:</p>
+<table>
+<tr><th style="width:32%">Sayfa</th><th>İçerik</th></tr>
+<tr><td><b>Summary</b></td><td>Genel özet: toplam carpark, tekil ktype, rakip ve
+ürün sayıları, veriye dair uyarılar.</td></tr>
+<tr><td><b>Carpark per Product</b></td><td>Her ürünün kaç araç uygulaması
+kapsadığı, toplam carpark ve yüzde payı.</td></tr>
+<tr><td><b>Carpark per Competitor</b></td><td>Aynı bilgi rakip bazında.</td></tr>
+<tr><td><b>Competitor Overlap</b></td><td>Her rakibin yalnızca kendisinde olan
+(<i>Exclusive</i>) ve başkalarıyla ortak (<i>Shared</i>) ktype/carpark dağılımı.
+Pazar boşluğu analizi için.</td></tr>
+<tr><td><b>Ktype Master List</b></td><td>En ayrıntılı liste: her tekil ktype için
+araç bilgileri, motor kodu, ürün limitleri, carpark ve ürün kapsama sütunları.</td></tr>
+<tr><td><b>Shared Ktypes</b></td><td>Yalnızca birden fazla üründe geçen
+ktype'lar.</td></tr>
+<tr><td><b>Simplified List</b></td><td>Raporlama şablonuyla aynı sütun düzeninde
+sade araç listesi (+ carpark).</td></tr>
+</table>
+<figure>
+  <img src="img/04-panel.png" alt="Etkileşimli pano">
+  <figcaption>Aynı tablolar <code>CRD_Analysis.html</code> panosunda da yer alır.</figcaption>
+</figure>
+</div>
+
+<div class="section pb">
+<h2>8. Ürün kapsama matrisi nasıl okunur?</h2>
+<p><b>Ktype Master List</b> ve <b>Simplified List</b> sayfalarında, her ürün için
+bir sütun bulunur. Sütun başlığı şu biçimdedir:</p>
+<pre>Rakip: Referans - Ürün Adı
+örn.  SCHAEFFLER LUK: 415 0000 10 - LuK RepSet DMF</pre>
+<p>Bir satırdaki (araçtaki) <b>x</b> işareti, o ürünün o aracı kapsadığı anlamına
+gelir. <b>Birden fazla x</b> varsa, o araç birden fazla ürün tarafından kapsanıyor
+demektir:</p>
+<table class="matrix">
+<tr><th>Ktype</th><th>Araç</th><th>A: 1 - LuK DMF</th><th>B: 3 - DMF Module</th><th>C: 4 - FULLPACK</th></tr>
+<tr><td class="l">109340</td><td class="l">VW POLO V 1.0 TSI</td><td>x</td><td>x</td><td>x</td></tr>
+<tr><td class="l">109492</td><td class="l">VW GOLF VI 1.6</td><td></td><td>x</td><td></td></tr>
+<tr><td class="l">112018</td><td class="l">AUDI A3 1.9 TDI</td><td>x</td><td></td><td>x</td></tr>
+</table>
+<p>Yukarıdaki örnekte 109340 numaralı araç <b>üç ürün</b> tarafından da
+kapsanıyor; 109492 ise <b>yalnızca</b> B ürününde var.</p>
+<div class="tip">
+Yalnızca çakışanları görmek isterseniz <b>Shared Ktypes</b> sayfasına bakın ya da
+<b># Products</b> sütununa filtre uygulayıp 1'den büyük değerleri seçin.
+</div>
+</div>
+
+<div class="section">
+<h2>9. Temel kavramlar</h2>
+<table>
+<tr><th style="width:26%">Kavram</th><th>Anlamı</th></tr>
+<tr><td><b>Ktype</b></td><td>Avrupa'da bir araç tipinin (marka + model + versiyon
++ motor) benzersiz kimlik numarası.</td></tr>
+<tr><td><b>Carpark</b></td><td>O araç tipinin yolda olan (parkta) adet sayısı.
+Pazar büyüklüğünü gösterir.</td></tr>
+<tr><td><b>Referans</b></td><td>Ürünün sipariş edildiği parça numarası.</td></tr>
+</table>
+<div class="note">
+<b>Önemli &mdash; tekilleştirme:</b> Aynı ktype birden fazla üründe geçse bile
+<b>toplam carpark'ta yalnızca bir kez</b> sayılır. Bu yüzden ürünlerin
+carpark toplamlarını alt alta toplarsanız genel toplamdan büyük bir sayı
+çıkabilir; bu bir hata değildir, ürünlerin kapsamalarının çakıştığı anlamına
+gelir.
+</div>
+</div>
+
+<div class="section">
+<h2>10. Girdi dosyanız neye benzemeli?</h2>
+<p>Excel dosyanızın <b>ilk sayfasında bir başlık satırı</b> olmalı ve bu satırda
+en azından şu iki sütun bulunmalıdır:</p>
+<ul>
+  <li><code>KtypNr</code> &mdash; araç kimlik numarası</li>
+  <li><code>Carpark per KtypNr</code> &mdash; o araca ait carpark adedi</li>
+</ul>
+<p>Bunların yanında şu sütunlar da tanınır ve varsa kullanılır:</p>
+<p style="font-size:9.5pt;color:#5b6675">
+Generic Product Designation, Reference, Competitor, Product Name, Range,
+Vehicle type, Manufacturer, Car Model, Version, Model year from, Model year to,
+Body type, Drive type, Displacement (l), Displacement (ccm techn.), Fuel Type,
+kW, Horse Power, Cylinders, Valves, Engine Type, Engine codes, Limitations
+</p>
+<div class="tip">
+Sütunlar <b>ada göre</b> eşleştirilir. Sütunların sırasını değiştirmeniz veya
+aradaki bazılarını silmeniz sorun çıkarmaz.
+</div>
+</div>
+
+<div class="section pb">
+<h2>11. Diğer çalıştırma yolları</h2>
+<p>Uygulamanın yanı sıra, depoyu bilgisayarınıza indirdiyseniz şu yollar da vardır
+(bunlar için Python kurulu olmalıdır):</p>
+<h3>Sürükle-bırak toplu çalıştırma</h3>
+<p>Excel dosyanızı <code>run_analysis.bat</code> dosyasının <b>üzerine
+sürükleyin</b>. Sonuçlar yanındaki <code>analysis_output</code> klasörüne yazılır.</p>
+<h3>Komut satırı</h3>
+<p>Komut İstemi'nde (Command Prompt), dosyaların bulunduğu klasörde:</p>
+<pre>python analyze_crd.py DOSYANIZ.xlsx</pre>
+<p>Sonuçları başka bir klasöre yazmak için:</p>
+<pre>python analyze_crd.py DOSYANIZ.xlsx --outdir sonuclar_2026</pre>
+<p>Uygulamayı (tarayıcı arayüzünü) Python ile açmak için:</p>
+<pre>python crd_app.py</pre>
+</div>
+
+<div class="section">
+<h2>12. Sık karşılaşılan sorunlar</h2>
+<table>
+<tr><th style="width:38%">Sorun</th><th>Çözüm</th></tr>
+<tr><td><code>SyntaxError: invalid syntax</code> ve ekranda <code>&gt;&gt;&gt;</code>
+işareti var</td>
+<td>Komutu <b>Python'un içine</b> yazmışsınız. <code>&gt;&gt;&gt;</code> Python'un
+kendi istemidir. <code>exit()</code> yazıp çıkın ve komutu <b>Komut İstemi</b>
+(siyah <code>C:\...&gt;</code> penceresi) içinde çalıştırın.</td></tr>
+<tr><td><code>'python' is not recognized</code></td>
+<td><code>python</code> yerine <code>py</code> yazmayı deneyin. Sorun sürerse
+Python'u <i>python.org</i> adresinden kurarken <b>&ldquo;Add Python to PATH&rdquo;</b>
+kutusunu işaretleyin.</td></tr>
+<tr><td>CSV dosyası Excel'de <b>tek sütunda</b> açılıyor</td>
+<td>Dosyalar bunu önleyecek biçimde hazırlanmıştır. Yine de olursa
+<b>Veri &rarr; Metinden/CSV'den</b> yolunu kullanıp ayırıcı olarak
+<b>virgül</b> seçin &mdash; ya da doğrudan <code>CRD_Analysis.xlsx</code>
+dosyasını kullanın.</td></tr>
+<tr><td>&ldquo;Windows kişisel bilgisayarınızı korudu&rdquo; uyarısı</td>
+<td><b>Ek bilgi &rarr; Yine de çalıştır</b>. Uygulama dijital olarak
+imzalanmadığı için çıkar.</td></tr>
+<tr><td>Tarayıcı açılmadı</td>
+<td>Açılan siyah pencerede yazan <code>http://127.0.0.1:...</code> adresini
+kopyalayıp tarayıcınıza yapıştırın.</td></tr>
+<tr><td>Uygulama nasıl kapatılır?</td>
+<td>Sayfanın altındaki <b>Quit the app</b> bağlantısına tıklayın veya siyah
+pencereyi kapatın.</td></tr>
+<tr><td>&ldquo;Could not analyze...&rdquo; hatası</td>
+<td>Dosya <code>.xlsx</code> değil, bozuk, ya da başlık satırında
+<code>KtypNr</code> sütunu yok. Bkz. bölüm 10.</td></tr>
+</table>
+<figure>
+  <img src="img/03-csv-tablo.png" alt="CSV tablo görünümü">
+  <figcaption><b>View</b> düğmesi CSV'leri okunabilir tablo olarak açar; üstteki
+  kutuya yazarak satırları filtreleyebilirsiniz.</figcaption>
+</figure>
+</div>
+
+<div class="section">
+<h2>13. Gizlilik</h2>
+<p>
+Uygulama tamamen <b>kendi bilgisayarınızda</b> çalışır. Tarayıcıda açılması onu
+bir internet sitesi yapmaz; adres <code>127.0.0.1</code> yani kendi makinenizdir.
+Dosyalarınız <b>hiçbir sunucuya gönderilmez</b>, internet bağlantısı gerekmez.
+</p>
+</div>
+
+<footer>
+CRD Analyzer &middot; Kullanım Kılavuzu &middot;
+Kaynak: <code>github.com/Alpay565/CRD-Analysis</code>
+</footer>
+</body></html>
